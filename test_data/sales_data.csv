@@ -1,0 +1,1001 @@
+order_id,order_date,customer_id,customer_name,product_id,product_names,categories,quantity,price,total
+0,2023-01-19,990,Customer_3692,201,Smartphone,Electronics,9,20.77,186.93
+1,2021-04-16,718,Customer_8240,210,Cabinet,Office,6,8.39,50.34
+2,2023-01-07,403,Customer_363,208,Notebook,Stationery,5,66.12,330.6
+3,2019-02-14,756,Customer_32058,207,Pen,Stationery,9,72.29,650.61
+4,2023-07-31,765,Customer_6029,202,Desk,Office,10,91.91,919.1
+5,2016-03-30,601,Customer_29108,205,Printer,Electronics,3,98.8,296.4
+6,2010-12-13,515,Customer_6912,209,Coffee Maker,Electronics,9,60.72,546.48
+7,2012-03-26,933,Customer_7984,205,Printer,Electronics,3,19.66,58.98
+8,2010-05-10,577,Customer_10435,202,Desk,Office,3,31.93,95.79
+9,2023-08-08,597,Customer_17398,211,Plastic Cups,Sundry,9,8.47,76.23
+10,2022-07-07,621,Customer_23632,205,Printer,Electronics,4,52.53,210.12
+11,2018-08-18,311,Customer_6673,201,Smartphone,Electronics,9,10.07,90.63
+12,2012-06-04,403,Customer_26703,209,Coffee Maker,Electronics,10,17.54,175.39999999999998
+13,2016-05-30,675,Customer_23325,203,Chair,Office,8,51.0,408.0
+14,2020-11-02,791,Customer_7307,202,Desk,Office,9,76.13,685.17
+15,2018-06-11,589,Customer_28105,201,Smartphone,Electronics,1,65.77,65.77
+16,2013-08-13,621,Customer_31797,210,Cabinet,Office,9,87.44,786.96
+17,2017-10-27,853,Customer_14709,209,Coffee Maker,Electronics,8,22.58,180.64
+18,2023-05-05,188,Customer_31527,205,Printer,Electronics,3,29.76,89.28
+19,2019-10-13,413,Customer_12980,211,Plastic Cups,Sundry,2,92.43,184.86
+20,2011-02-27,320,Customer_1455,205,Printer,Electronics,10,45.84,458.4
+21,2022-10-20,914,Customer_26321,210,Cabinet,Office,10,49.47,494.7
+22,2015-05-13,718,Customer_8293,207,Pen,Stationery,5,93.55,467.75
+23,2017-03-21,283,Customer_20079,206,Paper,Stationery,1,59.08,59.08
+24,2023-08-07,217,Customer_4537,205,Printer,Electronics,5,91.54,457.7000000000001
+25,2019-01-27,470,Customer_22994,209,Coffee Maker,Electronics,9,51.21,460.89
+26,2020-05-29,473,Customer_2428,204,Monitor,Electronics,6,83.7,502.2000000000001
+27,2011-06-30,240,Customer_27780,202,Desk,Office,3,47.64,142.92000000000002
+28,2022-01-25,890,Customer_19357,201,Smartphone,Electronics,5,23.53,117.65
+29,2014-12-26,132,Customer_22796,203,Chair,Office,2,12.08,24.16
+30,2022-08-13,215,Customer_25160,209,Coffee Maker,Electronics,10,54.09,540.9000000000001
+31,2021-10-15,288,Customer_12328,209,Coffee Maker,Electronics,10,61.5,615.0
+32,2017-04-26,651,Customer_25424,209,Coffee Maker,Electronics,10,42.21,422.1
+33,2019-09-07,427,Customer_19247,200,Laptop,Electronics,7,82.82,579.74
+34,2016-04-23,693,Customer_31594,208,Notebook,Stationery,1,31.3,31.3
+35,2012-04-25,148,Customer_10393,200,Laptop,Electronics,7,12.39,86.73
+36,2011-01-27,481,Customer_27499,210,Cabinet,Office,3,97.6,292.79999999999995
+37,2015-03-24,350,Customer_13188,209,Coffee Maker,Electronics,7,93.97,657.79
+38,2016-12-25,406,Customer_26754,204,Monitor,Electronics,7,9.64,67.48
+39,2019-03-27,197,Customer_29899,200,Laptop,Electronics,7,16.13,112.91
+40,2023-08-20,506,Customer_28260,209,Coffee Maker,Electronics,4,55.04,220.16
+41,2018-11-01,293,Customer_32085,210,Cabinet,Office,6,42.36,254.16
+42,2021-10-17,878,Customer_21311,205,Printer,Electronics,1,90.13,90.13
+43,2014-09-19,804,Customer_5241,207,Pen,Stationery,5,21.37,106.85
+44,2023-01-12,968,Customer_11080,202,Desk,Office,6,47.15,282.9
+45,2016-10-01,535,Customer_10186,200,Laptop,Electronics,4,64.14,256.56
+46,2019-07-23,107,Customer_12552,210,Cabinet,Office,5,29.09,145.45
+47,2021-03-06,241,Customer_20019,209,Coffee Maker,Electronics,6,62.81,376.86
+48,2023-11-07,743,Customer_19515,203,Chair,Office,9,53.54,481.86
+49,2017-01-07,140,Customer_1988,210,Cabinet,Office,7,2.57,17.99
+50,2017-04-12,487,Customer_9926,202,Desk,Office,9,27.5,247.5
+51,2019-07-06,281,Customer_3835,205,Printer,Electronics,4,66.95,267.8
+52,2020-02-23,741,Customer_14756,211,Plastic Cups,Sundry,9,81.28,731.52
+53,2020-07-23,764,Customer_1801,208,Notebook,Stationery,3,75.87,227.61
+54,2016-04-14,224,Customer_18461,206,Paper,Stationery,7,57.21,400.47
+55,2020-05-02,481,Customer_6512,207,Pen,Stationery,3,27.58,82.74
+56,2018-08-21,546,Customer_6961,204,Monitor,Electronics,8,42.15,337.2
+57,2010-02-11,472,Customer_11355,200,Laptop,Electronics,2,35.33,70.66
+58,2022-05-06,380,Customer_32442,209,Coffee Maker,Electronics,5,63.08,315.4
+59,2021-04-02,847,Customer_6627,209,Coffee Maker,Electronics,10,37.42,374.2000000000001
+60,2016-01-07,826,Customer_6979,200,Laptop,Electronics,4,15.58,62.32
+61,2012-01-12,219,Customer_1655,207,Pen,Stationery,4,5.54,22.16
+62,2013-02-19,475,Customer_29691,206,Paper,Stationery,1,72.83,72.83
+63,2012-03-24,305,Customer_16464,210,Cabinet,Office,2,62.82,125.64
+64,2014-02-21,726,Customer_22349,202,Desk,Office,9,10.98,98.82
+65,2022-12-10,455,Customer_2019,203,Chair,Office,8,53.32,426.56
+66,2011-05-07,652,Customer_26316,210,Cabinet,Office,10,11.2,112.0
+67,2021-06-07,839,Customer_20351,210,Cabinet,Office,8,66.5,532.0
+68,2012-07-02,204,Customer_22954,205,Printer,Electronics,2,46.55,93.1
+69,2017-09-14,500,Customer_12477,210,Cabinet,Office,6,37.84,227.04
+70,2016-01-22,670,Customer_18538,207,Pen,Stationery,4,25.7,102.8
+71,2011-07-25,956,Customer_28527,203,Chair,Office,10,10.26,102.6
+72,2012-04-24,698,Customer_15064,203,Chair,Office,10,4.54,45.4
+73,2020-09-05,335,Customer_5852,206,Paper,Stationery,9,58.65,527.85
+74,2020-08-18,979,Customer_16933,200,Laptop,Electronics,1,18.7,18.7
+75,2015-04-14,733,Customer_14706,206,Paper,Stationery,2,89.42,178.84
+76,2015-05-16,331,Customer_22639,202,Desk,Office,1,38.2,38.2
+77,2017-07-21,923,Customer_14088,207,Pen,Stationery,6,54.08,324.48
+78,2012-04-26,774,Customer_23300,201,Smartphone,Electronics,5,9.31,46.55
+79,2018-08-22,805,Customer_24155,207,Pen,Stationery,9,25.59,230.31
+80,2013-05-08,473,Customer_23099,202,Desk,Office,1,53.35,53.35
+81,2017-09-23,475,Customer_19892,207,Pen,Stationery,8,97.16,777.28
+82,2023-02-18,368,Customer_8352,209,Coffee Maker,Electronics,9,63.04,567.36
+83,2022-07-20,317,Customer_27117,206,Paper,Stationery,1,60.1,60.1
+84,2012-11-13,500,Customer_31681,204,Monitor,Electronics,10,2.58,25.8
+85,2019-07-06,747,Customer_18364,204,Monitor,Electronics,9,39.67,357.03000000000003
+86,2011-09-16,467,Customer_32211,201,Smartphone,Electronics,2,4.55,9.1
+87,2020-07-22,559,Customer_27081,207,Pen,Stationery,10,38.87,388.7
+88,2022-03-17,120,Customer_831,201,Smartphone,Electronics,7,90.82,635.74
+89,2018-01-31,404,Customer_8987,204,Monitor,Electronics,1,4.73,4.73
+90,2020-02-14,561,Customer_4724,201,Smartphone,Electronics,1,64.49,64.49
+91,2015-10-08,417,Customer_17481,205,Printer,Electronics,8,85.51,684.08
+92,2014-01-02,924,Customer_8046,201,Smartphone,Electronics,9,69.96,629.64
+93,2019-06-03,333,Customer_8983,202,Desk,Office,2,32.59,65.18
+94,2011-01-23,351,Customer_9729,211,Plastic Cups,Sundry,2,91.68,183.36
+95,2021-04-16,919,Customer_6500,204,Monitor,Electronics,8,51.5,412.0
+96,2010-06-12,984,Customer_16712,207,Pen,Stationery,3,45.99,137.97
+97,2021-10-11,838,Customer_14067,207,Pen,Stationery,2,72.49,144.98
+98,2013-02-21,724,Customer_32458,201,Smartphone,Electronics,3,63.91,191.73
+99,2016-07-05,576,Customer_8262,207,Pen,Stationery,7,35.82,250.74
+100,2011-11-07,639,Customer_13744,201,Smartphone,Electronics,6,71.16,426.96
+101,2023-12-09,811,Customer_9697,207,Pen,Stationery,6,75.29,451.74
+102,2021-10-02,543,Customer_23440,205,Printer,Electronics,10,33.14,331.4
+103,2012-08-08,202,Customer_28970,201,Smartphone,Electronics,6,97.56,585.36
+104,2021-06-24,795,Customer_14807,208,Notebook,Stationery,2,3.18,6.36
+105,2010-01-18,463,Customer_12296,206,Paper,Stationery,6,43.6,261.6
+106,2015-11-08,144,Customer_24445,204,Monitor,Electronics,3,20.33,60.99
+107,2016-07-31,286,Customer_7692,200,Laptop,Electronics,2,64.19,128.38
+108,2010-08-03,147,Customer_28704,205,Printer,Electronics,5,94.34,471.7000000000001
+109,2017-11-20,920,Customer_30693,202,Desk,Office,4,88.17,352.68
+110,2010-07-01,280,Customer_28017,203,Chair,Office,9,40.12,361.08
+111,2016-05-09,438,Customer_6218,205,Printer,Electronics,9,61.1,549.9
+112,2018-02-05,172,Customer_3270,200,Laptop,Electronics,4,63.59,254.36
+113,2017-03-23,142,Customer_2547,200,Laptop,Electronics,6,40.39,242.34
+114,2016-04-25,109,Customer_27802,206,Paper,Stationery,6,20.16,120.96
+115,2010-12-05,685,Customer_11391,210,Cabinet,Office,4,19.82,79.28
+116,2011-12-19,424,Customer_8725,201,Smartphone,Electronics,7,62.08,434.56
+117,2022-02-27,199,Customer_697,203,Chair,Office,3,67.92,203.76
+118,2017-01-20,868,Customer_18180,208,Notebook,Stationery,1,60.25,60.25
+119,2021-07-17,999,Customer_26636,208,Notebook,Stationery,2,7.65,15.3
+120,2015-11-29,251,Customer_16589,209,Coffee Maker,Electronics,5,72.4,362.0
+121,2021-06-26,970,Customer_8178,211,Plastic Cups,Sundry,4,84.9,339.6
+122,2022-07-29,392,Customer_28021,204,Monitor,Electronics,2,87.1,174.2
+123,2020-08-04,577,Customer_19203,207,Pen,Stationery,10,60.65,606.5
+124,2013-12-24,787,Customer_13284,211,Plastic Cups,Sundry,5,63.68,318.4
+125,2012-07-07,824,Customer_9284,208,Notebook,Stationery,1,18.36,18.36
+126,2019-01-15,102,Customer_30066,208,Notebook,Stationery,4,64.36,257.44
+127,2015-12-31,372,Customer_16445,210,Cabinet,Office,1,89.95,89.95
+128,2016-01-21,445,Customer_10072,207,Pen,Stationery,10,46.22,462.2
+129,2017-08-29,746,Customer_21617,207,Pen,Stationery,9,55.41,498.69
+130,2017-05-04,180,Customer_6564,211,Plastic Cups,Sundry,3,10.5,31.5
+131,2020-06-13,978,Customer_25237,204,Monitor,Electronics,5,89.71,448.55
+132,2019-10-28,775,Customer_6121,204,Monitor,Electronics,5,44.89,224.45
+133,2012-06-15,707,Customer_12343,211,Plastic Cups,Sundry,1,14.39,14.39
+134,2023-03-27,493,Customer_4309,204,Monitor,Electronics,1,66.29,66.29
+135,2011-02-06,735,Customer_22945,210,Cabinet,Office,1,26.54,26.54
+136,2018-12-11,350,Customer_19343,211,Plastic Cups,Sundry,7,42.37,296.59
+137,2018-11-17,251,Customer_32619,210,Cabinet,Office,7,53.16,372.12
+138,2020-05-16,257,Customer_10036,210,Cabinet,Office,5,54.76,273.8
+139,2019-06-30,815,Customer_28847,209,Coffee Maker,Electronics,5,49.24,246.2
+140,2020-08-29,489,Customer_25781,209,Coffee Maker,Electronics,5,37.84,189.2
+141,2020-02-28,801,Customer_19890,200,Laptop,Electronics,7,8.97,62.790000000000006
+142,2014-01-10,610,Customer_27588,209,Coffee Maker,Electronics,8,2.96,23.68
+143,2019-08-18,710,Customer_2655,201,Smartphone,Electronics,2,8.53,17.06
+144,2021-04-18,912,Customer_1340,211,Plastic Cups,Sundry,8,88.04,704.32
+145,2019-12-05,793,Customer_28611,200,Laptop,Electronics,10,10.32,103.2
+146,2012-07-30,795,Customer_4074,202,Desk,Office,3,50.28,150.84
+147,2022-06-09,840,Customer_28494,205,Printer,Electronics,4,72.6,290.4
+148,2022-03-07,347,Customer_20337,200,Laptop,Electronics,3,17.75,53.25
+149,2012-06-24,397,Customer_30810,206,Paper,Stationery,10,8.89,88.9
+150,2021-03-05,688,Customer_1120,210,Cabinet,Office,5,86.25,431.25
+151,2022-10-07,899,Customer_14650,205,Printer,Electronics,1,2.9,2.9
+152,2019-12-31,513,Customer_1292,201,Smartphone,Electronics,4,18.81,75.24
+153,2012-01-30,925,Customer_26876,205,Printer,Electronics,3,25.91,77.73
+154,2013-01-16,214,Customer_9494,203,Chair,Office,2,46.4,92.8
+155,2022-10-12,646,Customer_25179,203,Chair,Office,10,66.92,669.2
+156,2018-07-05,721,Customer_6916,201,Smartphone,Electronics,2,71.69,143.38
+157,2021-09-02,712,Customer_11279,205,Printer,Electronics,9,87.92,791.28
+158,2013-11-10,316,Customer_29143,210,Cabinet,Office,10,62.5,625.0
+159,2016-07-23,735,Customer_15803,201,Smartphone,Electronics,9,79.89,719.01
+160,2014-08-06,282,Customer_18392,207,Pen,Stationery,9,78.92,710.28
+161,2012-11-29,427,Customer_28515,209,Coffee Maker,Electronics,2,10.03,20.06
+162,2017-01-13,913,Customer_18917,206,Paper,Stationery,10,59.96,599.6
+163,2023-10-06,941,Customer_24560,200,Laptop,Electronics,8,53.3,426.4
+164,2018-10-25,604,Customer_13781,211,Plastic Cups,Sundry,5,18.65,93.25
+165,2014-08-09,346,Customer_27929,208,Notebook,Stationery,2,14.41,28.82
+166,2017-05-09,773,Customer_11805,208,Notebook,Stationery,7,63.64,445.48
+167,2017-08-05,686,Customer_32176,205,Printer,Electronics,8,3.47,27.76
+168,2020-11-01,572,Customer_29720,208,Notebook,Stationery,8,75.23,601.84
+169,2015-11-21,675,Customer_30129,204,Monitor,Electronics,2,82.27,164.54
+170,2013-02-17,272,Customer_24887,209,Coffee Maker,Electronics,6,75.06,450.36
+171,2023-12-30,453,Customer_5781,205,Printer,Electronics,3,86.26,258.78000000000003
+172,2022-09-07,697,Customer_9522,211,Plastic Cups,Sundry,5,49.73,248.65
+173,2023-04-05,957,Customer_31852,202,Desk,Office,7,15.62,109.34
+174,2017-04-19,441,Customer_8756,208,Notebook,Stationery,3,60.25,180.75
+175,2023-01-09,890,Customer_15681,201,Smartphone,Electronics,6,11.26,67.56
+176,2014-08-09,206,Customer_22536,204,Monitor,Electronics,6,15.74,94.44
+177,2022-09-04,826,Customer_11132,208,Notebook,Stationery,7,68.9,482.30000000000007
+178,2015-12-28,863,Customer_783,200,Laptop,Electronics,4,85.23,340.92
+179,2012-06-04,190,Customer_18074,204,Monitor,Electronics,1,17.86,17.86
+180,2018-03-04,224,Customer_10869,201,Smartphone,Electronics,3,80.74,242.22
+181,2016-03-29,508,Customer_6879,210,Cabinet,Office,3,78.96,236.88
+182,2020-09-19,657,Customer_2854,208,Notebook,Stationery,5,52.0,260.0
+183,2019-05-16,327,Customer_17500,211,Plastic Cups,Sundry,1,42.94,42.94
+184,2011-03-08,396,Customer_6205,203,Chair,Office,6,19.36,116.16
+185,2011-04-21,268,Customer_17619,209,Coffee Maker,Electronics,2,65.77,131.54
+186,2018-05-28,217,Customer_25750,200,Laptop,Electronics,7,34.25,239.75
+187,2016-08-13,692,Customer_24818,211,Plastic Cups,Sundry,2,87.32,174.64
+188,2018-02-20,125,Customer_3831,200,Laptop,Electronics,8,66.24,529.92
+189,2011-05-06,673,Customer_2866,211,Plastic Cups,Sundry,3,64.17,192.51
+190,2012-12-01,912,Customer_3980,201,Smartphone,Electronics,7,57.08,399.56
+191,2013-12-11,289,Customer_29277,209,Coffee Maker,Electronics,9,65.2,586.8000000000001
+192,2017-06-23,693,Customer_27804,209,Coffee Maker,Electronics,2,7.95,15.9
+193,2017-12-01,224,Customer_18418,201,Smartphone,Electronics,9,22.9,206.1
+194,2019-07-02,926,Customer_21004,210,Cabinet,Office,5,39.76,198.8
+195,2020-01-08,398,Customer_11636,207,Pen,Stationery,1,60.73,60.73
+196,2013-06-02,123,Customer_19701,203,Chair,Office,7,8.22,57.540000000000006
+197,2012-01-18,234,Customer_30681,205,Printer,Electronics,7,52.53,367.71
+198,2016-04-16,996,Customer_1316,201,Smartphone,Electronics,2,49.98,99.96
+199,2015-11-27,291,Customer_26141,210,Cabinet,Office,9,43.95,395.55
+200,2020-09-24,718,Customer_9581,201,Smartphone,Electronics,8,33.36,266.88
+201,2022-03-27,618,Customer_12998,205,Printer,Electronics,3,16.53,49.59
+202,2011-02-16,544,Customer_29148,209,Coffee Maker,Electronics,6,36.97,221.82
+203,2023-06-09,840,Customer_20777,207,Pen,Stationery,2,79.67,159.34
+204,2023-10-23,874,Customer_3153,209,Coffee Maker,Electronics,10,72.29,722.9000000000001
+205,2016-12-21,477,Customer_22560,202,Desk,Office,6,42.22,253.32
+206,2017-01-02,126,Customer_23561,202,Desk,Office,2,68.8,137.6
+207,2017-01-07,987,Customer_14529,204,Monitor,Electronics,5,85.24,426.2
+208,2018-09-15,220,Customer_23637,202,Desk,Office,2,39.26,78.52
+209,2011-12-13,272,Customer_7506,211,Plastic Cups,Sundry,10,12.78,127.8
+210,2017-02-14,950,Customer_27485,202,Desk,Office,1,71.66,71.66
+211,2020-09-09,576,Customer_4853,205,Printer,Electronics,4,57.82,231.28
+212,2020-04-21,114,Customer_26687,207,Pen,Stationery,1,26.64,26.64
+213,2022-09-25,852,Customer_10555,205,Printer,Electronics,1,90.83,90.83
+214,2014-09-27,279,Customer_17230,204,Monitor,Electronics,4,91.43,365.72
+215,2020-05-27,305,Customer_15588,201,Smartphone,Electronics,6,52.26,313.56
+216,2012-10-20,489,Customer_18315,211,Plastic Cups,Sundry,4,95.21,380.84
+217,2017-02-26,825,Customer_20838,206,Paper,Stationery,1,22.9,22.9
+218,2020-02-03,394,Customer_347,210,Cabinet,Office,1,26.12,26.12
+219,2017-12-02,449,Customer_32562,211,Plastic Cups,Sundry,3,73.66,220.98
+220,2018-01-11,258,Customer_12260,200,Laptop,Electronics,2,88.32,176.64
+221,2020-06-12,182,Customer_28053,211,Plastic Cups,Sundry,4,79.76,319.04
+222,2018-10-05,200,Customer_26392,211,Plastic Cups,Sundry,1,47.78,47.78
+223,2010-09-05,486,Customer_29305,206,Paper,Stationery,4,92.58,370.32
+224,2014-05-08,249,Customer_7451,204,Monitor,Electronics,1,11.03,11.03
+225,2018-04-14,333,Customer_16259,208,Notebook,Stationery,6,85.13,510.78
+226,2018-02-09,130,Customer_31673,208,Notebook,Stationery,7,14.09,98.63
+227,2013-06-10,147,Customer_15568,207,Pen,Stationery,4,69.8,279.2
+228,2015-12-11,652,Customer_12812,200,Laptop,Electronics,2,84.66,169.32
+229,2023-10-05,545,Customer_16224,204,Monitor,Electronics,8,92.3,738.4
+230,2016-01-02,175,Customer_7093,211,Plastic Cups,Sundry,8,13.39,107.12
+231,2011-05-25,539,Customer_22737,211,Plastic Cups,Sundry,4,78.14,312.56
+232,2014-02-03,113,Customer_22955,209,Coffee Maker,Electronics,9,67.98,611.82
+233,2013-07-06,499,Customer_7044,210,Cabinet,Office,5,75.44,377.2
+234,2015-10-27,326,Customer_22927,207,Pen,Stationery,10,42.73,427.3
+235,2020-03-08,615,Customer_3013,208,Notebook,Stationery,10,93.07,930.7
+236,2013-01-18,612,Customer_147,206,Paper,Stationery,4,27.67,110.68
+237,2020-01-30,656,Customer_23401,210,Cabinet,Office,7,58.6,410.2
+238,2013-02-23,169,Customer_23854,202,Desk,Office,2,56.78,113.56
+239,2017-02-12,214,Customer_9948,211,Plastic Cups,Sundry,3,42.38,127.14
+240,2022-10-31,451,Customer_13898,206,Paper,Stationery,3,59.04,177.12
+241,2012-06-19,599,Customer_27362,201,Smartphone,Electronics,4,38.21,152.84
+242,2013-05-03,148,Customer_5499,202,Desk,Office,5,10.98,54.900000000000006
+243,2021-07-13,514,Customer_9365,210,Cabinet,Office,9,73.76,663.84
+244,2012-06-24,511,Customer_17760,207,Pen,Stationery,8,75.76,606.08
+245,2012-03-30,430,Customer_20052,204,Monitor,Electronics,6,82.01,492.06000000000006
+246,2019-10-04,410,Customer_17820,203,Chair,Office,3,84.64,253.92
+247,2021-09-01,177,Customer_7675,211,Plastic Cups,Sundry,8,32.82,262.56
+248,2021-11-09,634,Customer_31908,209,Coffee Maker,Electronics,9,31.28,281.52
+249,2023-11-26,413,Customer_26978,210,Cabinet,Office,6,84.34,506.04
+250,2022-07-27,101,Customer_24744,206,Paper,Stationery,10,43.48,434.8
+251,2016-06-09,951,Customer_5811,207,Pen,Stationery,7,99.23,694.61
+252,2014-11-02,745,Customer_20505,204,Monitor,Electronics,10,47.58,475.8
+253,2022-12-17,722,Customer_5903,210,Cabinet,Office,6,15.45,92.7
+254,2023-07-19,262,Customer_7718,203,Chair,Office,1,91.06,91.06
+255,2017-09-25,924,Customer_7747,211,Plastic Cups,Sundry,4,8.67,34.68
+256,2010-10-21,494,Customer_3456,202,Desk,Office,2,7.25,14.5
+257,2023-07-29,754,Customer_12920,200,Laptop,Electronics,2,6.4,12.8
+258,2015-12-05,282,Customer_29329,204,Monitor,Electronics,7,64.39,450.73
+259,2022-01-04,883,Customer_27886,202,Desk,Office,3,70.18,210.54
+260,2022-09-01,617,Customer_8185,203,Chair,Office,3,99.08,297.24
+261,2022-02-10,302,Customer_30896,204,Monitor,Electronics,1,67.92,67.92
+262,2016-03-19,271,Customer_19599,209,Coffee Maker,Electronics,8,83.89,671.12
+263,2016-12-13,990,Customer_6570,201,Smartphone,Electronics,9,19.63,176.67
+264,2018-06-07,579,Customer_15193,207,Pen,Stationery,1,55.8,55.8
+265,2023-07-29,162,Customer_24930,208,Notebook,Stationery,10,66.35,663.5
+266,2018-05-27,530,Customer_28589,210,Cabinet,Office,2,7.44,14.88
+267,2016-01-21,917,Customer_26086,210,Cabinet,Office,7,58.44,409.08
+268,2013-08-14,890,Customer_29668,201,Smartphone,Electronics,6,49.86,299.16
+269,2020-06-15,609,Customer_21164,206,Paper,Stationery,8,17.93,143.44
+270,2016-07-14,818,Customer_12877,203,Chair,Office,8,84.67,677.36
+271,2014-07-20,801,Customer_51,206,Paper,Stationery,8,18.94,151.52
+272,2021-09-11,790,Customer_18158,207,Pen,Stationery,7,69.26,484.8200000000001
+273,2023-06-25,763,Customer_24835,206,Paper,Stationery,7,54.3,380.1
+274,2017-06-30,578,Customer_10809,207,Pen,Stationery,1,14.19,14.19
+275,2023-09-30,920,Customer_13113,204,Monitor,Electronics,9,31.18,280.62
+276,2020-07-30,375,Customer_27190,210,Cabinet,Office,5,88.41,442.05
+277,2016-07-06,641,Customer_8251,205,Printer,Electronics,6,83.5,501.0
+278,2011-09-03,858,Customer_18158,207,Pen,Stationery,5,39.29,196.45
+279,2016-08-28,578,Customer_13709,205,Printer,Electronics,7,69.03,483.21
+280,2023-03-20,791,Customer_26268,209,Coffee Maker,Electronics,8,6.31,50.48
+281,2023-05-30,267,Customer_12312,203,Chair,Office,4,69.95,279.8
+282,2011-10-01,393,Customer_11175,200,Laptop,Electronics,8,61.97,495.76
+283,2015-06-11,916,Customer_23567,200,Laptop,Electronics,6,92.45,554.7
+284,2019-08-09,127,Customer_31488,208,Notebook,Stationery,8,72.23,577.84
+285,2017-05-25,103,Customer_10619,202,Desk,Office,4,14.31,57.24
+286,2012-11-02,249,Customer_27191,201,Smartphone,Electronics,9,71.77,645.93
+287,2010-02-17,235,Customer_8881,208,Notebook,Stationery,1,33.34,33.34
+288,2011-08-26,505,Customer_7740,209,Coffee Maker,Electronics,5,55.73,278.65
+289,2021-03-22,696,Customer_22221,211,Plastic Cups,Sundry,6,59.72,358.32
+290,2014-11-25,189,Customer_27194,203,Chair,Office,7,58.84,411.88
+291,2018-12-18,738,Customer_17552,200,Laptop,Electronics,1,68.22,68.22
+292,2018-03-27,652,Customer_9166,207,Pen,Stationery,6,57.81,346.86
+293,2011-04-16,183,Customer_11612,207,Pen,Stationery,8,35.23,281.84
+294,2017-03-06,433,Customer_10725,207,Pen,Stationery,9,82.92,746.28
+295,2012-01-27,120,Customer_18908,208,Notebook,Stationery,8,73.93,591.44
+296,2015-10-18,990,Customer_29831,201,Smartphone,Electronics,9,64.63,581.67
+297,2013-07-24,537,Customer_9943,203,Chair,Office,7,24.71,172.97
+298,2012-08-26,732,Customer_8971,206,Paper,Stationery,2,49.22,98.44
+299,2022-05-17,516,Customer_23920,210,Cabinet,Office,2,30.75,61.5
+300,2023-06-30,515,Customer_739,209,Coffee Maker,Electronics,1,58.47,58.47
+301,2016-12-01,417,Customer_19387,201,Smartphone,Electronics,5,9.32,46.6
+302,2018-02-09,352,Customer_13045,209,Coffee Maker,Electronics,4,26.32,105.28
+303,2022-10-16,798,Customer_1085,204,Monitor,Electronics,7,70.0,490.0
+304,2016-01-18,606,Customer_31034,200,Laptop,Electronics,6,29.11,174.66
+305,2020-12-25,396,Customer_14324,207,Pen,Stationery,4,82.69,330.76
+306,2010-12-16,646,Customer_26932,201,Smartphone,Electronics,10,35.65,356.5
+307,2016-08-21,651,Customer_24342,200,Laptop,Electronics,10,98.8,988.0
+308,2015-05-27,261,Customer_16913,200,Laptop,Electronics,4,47.53,190.12
+309,2012-03-26,802,Customer_30361,201,Smartphone,Electronics,8,59.08,472.64
+310,2014-10-17,963,Customer_21416,208,Notebook,Stationery,10,61.23,612.3
+311,2013-08-08,340,Customer_29657,210,Cabinet,Office,5,14.8,74.0
+312,2018-09-02,179,Customer_19097,208,Notebook,Stationery,7,55.82,390.74
+313,2015-09-02,632,Customer_29367,210,Cabinet,Office,1,66.15,66.15
+314,2013-03-30,342,Customer_11845,206,Paper,Stationery,8,32.65,261.2
+315,2011-12-14,328,Customer_30589,210,Cabinet,Office,8,11.69,93.52
+316,2016-04-09,552,Customer_22934,207,Pen,Stationery,1,22.84,22.84
+317,2017-11-15,870,Customer_29451,201,Smartphone,Electronics,9,56.19,505.71
+318,2016-01-11,405,Customer_20663,203,Chair,Office,6,7.5,45.0
+319,2022-10-11,242,Customer_8990,210,Cabinet,Office,4,90.04,360.16
+320,2014-08-15,596,Customer_28494,207,Pen,Stationery,9,43.02,387.18
+321,2012-04-16,941,Customer_18019,204,Monitor,Electronics,2,79.59,159.18
+322,2020-05-26,780,Customer_29342,205,Printer,Electronics,4,60.19,240.76
+323,2019-05-06,466,Customer_14296,207,Pen,Stationery,2,85.99,171.98
+324,2019-01-20,854,Customer_14338,211,Plastic Cups,Sundry,10,64.33,643.3
+325,2013-09-24,737,Customer_22871,204,Monitor,Electronics,2,92.29,184.58
+326,2017-05-09,952,Customer_18478,208,Notebook,Stationery,8,94.58,756.64
+327,2019-12-26,812,Customer_6436,211,Plastic Cups,Sundry,6,2.65,15.9
+328,2018-11-05,159,Customer_27647,202,Desk,Office,2,27.32,54.64
+329,2018-11-01,515,Customer_31436,206,Paper,Stationery,1,8.9,8.9
+330,2014-12-20,298,Customer_16054,201,Smartphone,Electronics,4,94.3,377.2
+331,2011-10-05,440,Customer_14222,205,Printer,Electronics,6,95.38,572.28
+332,2021-10-27,489,Customer_19270,206,Paper,Stationery,8,64.5,516.0
+333,2022-06-06,701,Customer_15175,209,Coffee Maker,Electronics,7,95.31,667.1700000000001
+334,2019-08-19,743,Customer_7887,208,Notebook,Stationery,6,70.9,425.4
+335,2010-10-04,515,Customer_25619,207,Pen,Stationery,1,71.53,71.53
+336,2016-05-19,609,Customer_27973,202,Desk,Office,10,26.78,267.8
+337,2022-12-22,348,Customer_3938,208,Notebook,Stationery,6,35.94,215.64
+338,2022-08-18,145,Customer_14477,201,Smartphone,Electronics,8,41.68,333.44
+339,2016-03-09,677,Customer_3884,200,Laptop,Electronics,10,96.31,963.1
+340,2023-03-09,887,Customer_20447,209,Coffee Maker,Electronics,4,22.77,91.08
+341,2016-06-12,446,Customer_6217,202,Desk,Office,3,6.49,19.47
+342,2023-02-25,546,Customer_5567,204,Monitor,Electronics,4,29.57,118.28
+343,2013-10-27,220,Customer_23845,205,Printer,Electronics,4,90.0,360.0
+344,2013-04-14,136,Customer_7860,211,Plastic Cups,Sundry,10,14.81,148.1
+345,2011-01-06,540,Customer_28741,211,Plastic Cups,Sundry,6,17.9,107.4
+346,2011-11-14,319,Customer_32392,208,Notebook,Stationery,4,33.97,135.88
+347,2014-01-30,961,Customer_20534,207,Pen,Stationery,7,71.09,497.63
+348,2022-05-14,131,Customer_17248,200,Laptop,Electronics,7,84.91,594.37
+349,2021-03-15,118,Customer_26999,210,Cabinet,Office,6,20.49,122.94
+350,2022-08-07,336,Customer_11734,200,Laptop,Electronics,3,88.13,264.39
+351,2014-04-22,329,Customer_30324,200,Laptop,Electronics,8,18.71,149.68
+352,2021-12-26,399,Customer_16357,204,Monitor,Electronics,7,74.54,521.7800000000001
+353,2018-03-21,376,Customer_26019,204,Monitor,Electronics,5,76.03,380.15
+354,2022-02-07,918,Customer_9014,211,Plastic Cups,Sundry,1,30.19,30.19
+355,2017-08-13,423,Customer_27994,206,Paper,Stationery,6,22.24,133.44
+356,2011-10-24,820,Customer_8283,201,Smartphone,Electronics,7,69.0,483.0
+357,2022-12-15,443,Customer_21663,201,Smartphone,Electronics,5,4.76,23.8
+358,2012-12-06,925,Customer_5922,208,Notebook,Stationery,4,97.04,388.16
+359,2010-02-02,804,Customer_29748,201,Smartphone,Electronics,2,6.4,12.8
+360,2010-03-27,464,Customer_3532,200,Laptop,Electronics,6,44.85,269.1
+361,2011-04-25,230,Customer_17412,200,Laptop,Electronics,8,44.83,358.64
+362,2018-10-11,439,Customer_24601,201,Smartphone,Electronics,8,80.62,644.96
+363,2011-05-04,937,Customer_31582,207,Pen,Stationery,6,96.94,581.64
+364,2019-02-09,489,Customer_25528,203,Chair,Office,8,9.42,75.36
+365,2021-04-01,515,Customer_26990,204,Monitor,Electronics,5,29.87,149.35
+366,2022-03-15,998,Customer_19069,202,Desk,Office,4,54.75,219.0
+367,2012-09-02,856,Customer_17805,207,Pen,Stationery,5,15.86,79.3
+368,2010-09-09,787,Customer_20430,204,Monitor,Electronics,5,48.05,240.25
+369,2016-07-26,791,Customer_27807,205,Printer,Electronics,2,40.6,81.2
+370,2010-03-13,260,Customer_6262,210,Cabinet,Office,8,17.25,138.0
+371,2013-09-23,775,Customer_14485,209,Coffee Maker,Electronics,7,51.43,360.01
+372,2018-02-23,996,Customer_5818,202,Desk,Office,7,11.99,83.93
+373,2022-05-30,262,Customer_32077,211,Plastic Cups,Sundry,5,30.66,153.3
+374,2019-05-30,989,Customer_20554,205,Printer,Electronics,5,51.52,257.6
+375,2016-04-04,149,Customer_3583,209,Coffee Maker,Electronics,3,36.21,108.63
+376,2010-12-31,432,Customer_16423,209,Coffee Maker,Electronics,10,70.0,700.0
+377,2020-07-30,142,Customer_5402,211,Plastic Cups,Sundry,2,50.52,101.04
+378,2020-03-23,335,Customer_28393,211,Plastic Cups,Sundry,8,37.64,301.12
+379,2016-10-21,605,Customer_17550,201,Smartphone,Electronics,8,64.98,519.84
+380,2018-12-13,202,Customer_19050,206,Paper,Stationery,7,76.35,534.4499999999999
+381,2010-06-29,107,Customer_6096,207,Pen,Stationery,5,71.05,355.25
+382,2021-05-07,456,Customer_25602,203,Chair,Office,3,69.01,207.03000000000003
+383,2022-08-20,433,Customer_15942,205,Printer,Electronics,3,90.38,271.14
+384,2011-03-06,818,Customer_21679,209,Coffee Maker,Electronics,4,13.23,52.92
+385,2019-01-06,725,Customer_27363,205,Printer,Electronics,5,62.68,313.4
+386,2023-08-15,178,Customer_21869,205,Printer,Electronics,7,33.35,233.45
+387,2013-06-04,363,Customer_32187,209,Coffee Maker,Electronics,1,51.02,51.02
+388,2020-04-18,309,Customer_12673,200,Laptop,Electronics,3,69.75,209.25
+389,2022-04-14,682,Customer_12851,202,Desk,Office,4,32.55,130.2
+390,2012-12-31,323,Customer_27606,208,Notebook,Stationery,5,52.7,263.5
+391,2020-11-17,580,Customer_7400,200,Laptop,Electronics,9,89.59,806.3100000000001
+392,2021-05-25,196,Customer_29165,209,Coffee Maker,Electronics,10,31.67,316.70000000000005
+393,2013-01-23,207,Customer_4601,203,Chair,Office,1,29.37,29.37
+394,2018-01-17,290,Customer_28130,203,Chair,Office,6,68.24,409.44
+395,2020-01-11,757,Customer_27960,202,Desk,Office,9,23.53,211.77
+396,2018-11-14,972,Customer_1838,209,Coffee Maker,Electronics,6,47.7,286.20000000000005
+397,2014-10-17,188,Customer_2581,202,Desk,Office,5,44.12,220.6
+398,2015-04-30,403,Customer_23903,205,Printer,Electronics,10,31.67,316.70000000000005
+399,2015-03-28,524,Customer_27849,210,Cabinet,Office,6,6.18,37.08
+400,2023-11-24,225,Customer_603,204,Monitor,Electronics,8,21.05,168.4
+401,2015-05-04,490,Customer_29977,208,Notebook,Stationery,10,26.43,264.3
+402,2014-09-11,752,Customer_17878,208,Notebook,Stationery,1,13.15,13.15
+403,2010-05-20,488,Customer_12909,204,Monitor,Electronics,10,83.56,835.6
+404,2012-12-25,454,Customer_14107,204,Monitor,Electronics,3,83.86,251.58
+405,2012-08-22,166,Customer_23160,201,Smartphone,Electronics,6,94.35,566.0999999999999
+406,2023-10-30,466,Customer_3689,204,Monitor,Electronics,3,99.9,299.70000000000005
+407,2019-09-15,734,Customer_3121,205,Printer,Electronics,8,64.19,513.52
+408,2012-08-19,842,Customer_3818,202,Desk,Office,7,40.25,281.75
+409,2020-10-02,392,Customer_501,201,Smartphone,Electronics,5,15.76,78.8
+410,2018-03-07,436,Customer_14359,205,Printer,Electronics,6,22.54,135.24
+411,2010-10-08,881,Customer_9181,204,Monitor,Electronics,1,93.43,93.43
+412,2011-10-23,474,Customer_8465,206,Paper,Stationery,8,56.07,448.56
+413,2017-12-30,804,Customer_29722,204,Monitor,Electronics,3,71.35,214.05
+414,2019-06-04,747,Customer_32152,202,Desk,Office,7,88.38,618.66
+415,2021-01-13,456,Customer_4401,211,Plastic Cups,Sundry,10,68.57,685.6999999999999
+416,2011-09-12,406,Customer_1485,206,Paper,Stationery,1,62.28,62.28
+417,2012-07-15,220,Customer_23371,203,Chair,Office,3,61.23,183.69
+418,2018-05-06,233,Customer_4152,208,Notebook,Stationery,10,58.7,587.0
+419,2013-03-01,663,Customer_21993,206,Paper,Stationery,9,93.54,841.86
+420,2023-05-10,107,Customer_521,203,Chair,Office,3,72.94,218.82
+421,2017-06-24,155,Customer_8243,204,Monitor,Electronics,1,46.84,46.84
+422,2017-10-03,598,Customer_16984,206,Paper,Stationery,6,39.89,239.34
+423,2015-07-18,600,Customer_28444,202,Desk,Office,6,77.98,467.88
+424,2010-07-07,256,Customer_19856,211,Plastic Cups,Sundry,9,75.46,679.14
+425,2010-06-09,555,Customer_24739,204,Monitor,Electronics,1,94.66,94.66
+426,2013-12-15,847,Customer_13460,209,Coffee Maker,Electronics,2,12.89,25.78
+427,2022-10-22,945,Customer_32499,207,Pen,Stationery,4,94.13,376.52
+428,2013-01-29,918,Customer_10523,200,Laptop,Electronics,8,53.11,424.88
+429,2013-03-10,722,Customer_17510,209,Coffee Maker,Electronics,6,45.77,274.62
+430,2010-05-02,524,Customer_16206,201,Smartphone,Electronics,2,74.98,149.96
+431,2018-12-08,198,Customer_5998,207,Pen,Stationery,10,4.97,49.7
+432,2019-08-22,700,Customer_9818,208,Notebook,Stationery,2,17.0,34.0
+433,2016-07-01,244,Customer_6690,206,Paper,Stationery,2,86.03,172.06
+434,2021-01-22,567,Customer_32643,203,Chair,Office,1,34.83,34.83
+435,2016-04-21,322,Customer_3313,208,Notebook,Stationery,10,16.37,163.70000000000002
+436,2011-01-02,783,Customer_6872,200,Laptop,Electronics,7,82.59,578.13
+437,2013-04-06,861,Customer_3685,200,Laptop,Electronics,7,89.95,629.65
+438,2021-09-26,647,Customer_15544,208,Notebook,Stationery,6,72.46,434.76
+439,2010-04-08,339,Customer_25535,207,Pen,Stationery,6,81.37,488.22
+440,2016-07-13,189,Customer_30446,200,Laptop,Electronics,4,52.12,208.48
+441,2022-05-26,565,Customer_13033,203,Chair,Office,10,46.81,468.1
+442,2022-06-11,101,Customer_24414,207,Pen,Stationery,1,31.28,31.28
+443,2018-10-19,553,Customer_29871,209,Coffee Maker,Electronics,2,54.16,108.32
+444,2023-10-11,203,Customer_23018,207,Pen,Stationery,5,92.14,460.7
+445,2017-12-28,901,Customer_466,205,Printer,Electronics,7,97.88,685.16
+446,2016-07-02,997,Customer_497,201,Smartphone,Electronics,2,84.02,168.04
+447,2013-03-15,121,Customer_11145,209,Coffee Maker,Electronics,8,18.95,151.6
+448,2013-06-04,878,Customer_19215,210,Cabinet,Office,4,77.47,309.88
+449,2012-04-29,143,Customer_8399,205,Printer,Electronics,8,50.89,407.12
+450,2023-04-22,821,Customer_30891,202,Desk,Office,2,54.39,108.78
+451,2014-03-23,485,Customer_9012,201,Smartphone,Electronics,7,96.16,673.12
+452,2019-07-14,355,Customer_11541,206,Paper,Stationery,1,54.14,54.14
+453,2012-12-02,430,Customer_20050,206,Paper,Stationery,3,90.95,272.85
+454,2017-04-09,711,Customer_473,205,Printer,Electronics,7,12.22,85.54
+455,2012-03-20,239,Customer_25413,205,Printer,Electronics,1,34.26,34.26
+456,2013-07-14,162,Customer_29170,209,Coffee Maker,Electronics,4,33.61,134.44
+457,2020-03-11,229,Customer_11470,208,Notebook,Stationery,1,94.05,94.05
+458,2018-06-20,246,Customer_19295,207,Pen,Stationery,5,91.36,456.8
+459,2017-07-05,700,Customer_17116,210,Cabinet,Office,2,70.41,140.82
+460,2020-02-10,222,Customer_4186,200,Laptop,Electronics,1,61.1,61.1
+461,2018-12-27,776,Customer_18883,209,Coffee Maker,Electronics,8,20.92,167.36
+462,2015-08-18,172,Customer_20480,206,Paper,Stationery,8,36.86,294.88
+463,2010-01-04,551,Customer_29901,204,Monitor,Electronics,1,71.37,71.37
+464,2019-02-09,321,Customer_15412,205,Printer,Electronics,10,60.26,602.6
+465,2012-01-24,272,Customer_1090,203,Chair,Office,9,52.77,474.93
+466,2022-12-05,961,Customer_23326,210,Cabinet,Office,10,41.3,413.0
+467,2019-09-21,669,Customer_12114,209,Coffee Maker,Electronics,7,42.25,295.75
+468,2022-06-01,868,Customer_18035,210,Cabinet,Office,2,62.55,125.1
+469,2023-07-03,250,Customer_10724,202,Desk,Office,10,61.3,613.0
+470,2017-07-15,665,Customer_15227,206,Paper,Stationery,1,90.23,90.23
+471,2011-04-29,106,Customer_28990,208,Notebook,Stationery,4,7.82,31.28
+472,2020-05-06,660,Customer_30473,202,Desk,Office,6,46.23,277.38
+473,2012-03-10,230,Customer_17015,209,Coffee Maker,Electronics,3,68.29,204.87
+474,2016-02-10,577,Customer_28159,202,Desk,Office,4,25.14,100.56
+475,2014-05-30,194,Customer_11889,208,Notebook,Stationery,8,29.7,237.6
+476,2021-05-30,616,Customer_27959,200,Laptop,Electronics,9,2.77,24.93
+477,2010-07-09,327,Customer_18489,201,Smartphone,Electronics,2,84.01,168.02
+478,2016-08-06,503,Customer_2138,202,Desk,Office,9,83.02,747.18
+479,2013-06-18,579,Customer_32233,208,Notebook,Stationery,7,71.09,497.63
+480,2022-04-07,108,Customer_2633,206,Paper,Stationery,5,97.84,489.2000000000001
+481,2019-04-16,362,Customer_10100,208,Notebook,Stationery,8,19.73,157.84
+482,2016-04-29,938,Customer_7657,202,Desk,Office,9,94.17,847.53
+483,2018-09-05,610,Customer_29235,211,Plastic Cups,Sundry,4,29.63,118.52
+484,2020-03-12,179,Customer_8429,203,Chair,Office,10,34.77,347.70000000000005
+485,2016-02-06,419,Customer_29454,201,Smartphone,Electronics,2,20.74,41.48
+486,2022-10-15,537,Customer_8119,207,Pen,Stationery,3,39.69,119.07
+487,2019-03-18,132,Customer_29116,208,Notebook,Stationery,9,9.16,82.44
+488,2012-06-08,543,Customer_8191,205,Printer,Electronics,8,44.48,355.84
+489,2023-10-02,193,Customer_8957,204,Monitor,Electronics,8,8.89,71.12
+490,2012-03-09,832,Customer_8951,206,Paper,Stationery,2,9.29,18.58
+491,2019-08-31,287,Customer_3545,203,Chair,Office,1,46.39,46.39
+492,2010-03-29,142,Customer_26901,206,Paper,Stationery,9,55.82,502.38
+493,2011-08-14,629,Customer_31865,206,Paper,Stationery,7,90.95,636.65
+494,2019-01-01,568,Customer_21866,200,Laptop,Electronics,8,28.76,230.08
+495,2022-07-13,533,Customer_15013,209,Coffee Maker,Electronics,7,36.44,255.08
+496,2011-02-13,796,Customer_27411,201,Smartphone,Electronics,9,60.29,542.61
+497,2010-11-23,576,Customer_4810,200,Laptop,Electronics,8,91.69,733.52
+498,2012-07-13,429,Customer_5595,207,Pen,Stationery,6,82.22,493.32
+499,2013-06-19,623,Customer_25496,205,Printer,Electronics,1,62.09,62.09
+500,2012-10-16,238,Customer_20128,204,Monitor,Electronics,9,83.12,748.08
+501,2010-12-27,312,Customer_12682,207,Pen,Stationery,8,19.07,152.56
+502,2019-04-27,466,Customer_20244,210,Cabinet,Office,6,79.95,479.7000000000001
+503,2016-04-30,834,Customer_20134,208,Notebook,Stationery,7,98.14,686.98
+504,2022-01-04,353,Customer_14695,211,Plastic Cups,Sundry,5,14.78,73.89999999999999
+505,2019-02-24,614,Customer_25005,204,Monitor,Electronics,3,46.96,140.88
+506,2018-11-23,352,Customer_24268,210,Cabinet,Office,9,22.36,201.24
+507,2016-05-25,788,Customer_17686,211,Plastic Cups,Sundry,10,57.32,573.2
+508,2022-02-05,398,Customer_28375,211,Plastic Cups,Sundry,7,52.94,370.58
+509,2018-06-24,931,Customer_32683,209,Coffee Maker,Electronics,2,69.67,139.34
+510,2011-08-01,336,Customer_17038,205,Printer,Electronics,10,6.88,68.8
+511,2020-09-28,991,Customer_18865,202,Desk,Office,2,9.36,18.72
+512,2023-07-02,123,Customer_24155,202,Desk,Office,1,28.68,28.68
+513,2018-11-23,569,Customer_22791,209,Coffee Maker,Electronics,9,59.12,532.0799999999999
+514,2023-09-13,966,Customer_29726,200,Laptop,Electronics,1,9.09,9.09
+515,2012-07-07,238,Customer_5570,202,Desk,Office,1,52.75,52.75
+516,2012-10-01,149,Customer_12155,201,Smartphone,Electronics,6,2.06,12.36
+517,2023-04-12,383,Customer_27713,204,Monitor,Electronics,4,2.98,11.92
+518,2023-04-14,128,Customer_10588,208,Notebook,Stationery,4,88.74,354.96
+519,2017-11-04,767,Customer_10071,208,Notebook,Stationery,5,72.58,362.9
+520,2013-04-29,161,Customer_11342,207,Pen,Stationery,6,55.18,331.08
+521,2017-12-04,695,Customer_25212,210,Cabinet,Office,6,30.07,180.42
+522,2012-12-01,901,Customer_12472,206,Paper,Stationery,6,46.35,278.1
+523,2016-02-06,410,Customer_19242,209,Coffee Maker,Electronics,6,6.3,37.8
+524,2011-07-18,177,Customer_6962,204,Monitor,Electronics,7,56.96,398.72
+525,2011-01-18,727,Customer_15877,207,Pen,Stationery,5,64.28,321.4
+526,2017-05-10,510,Customer_16333,209,Coffee Maker,Electronics,5,46.95,234.75
+527,2012-01-24,957,Customer_24169,210,Cabinet,Office,9,74.75,672.75
+528,2010-04-04,809,Customer_19207,201,Smartphone,Electronics,6,6.13,36.78
+529,2017-11-18,817,Customer_29367,204,Monitor,Electronics,10,49.5,495.0
+530,2022-09-09,211,Customer_24991,210,Cabinet,Office,9,12.22,109.98
+531,2016-09-19,945,Customer_19189,204,Monitor,Electronics,8,79.31,634.48
+532,2019-11-18,620,Customer_14721,206,Paper,Stationery,3,9.87,29.61
+533,2016-02-28,793,Customer_13204,207,Pen,Stationery,8,81.22,649.76
+534,2016-10-26,422,Customer_28275,200,Laptop,Electronics,7,55.84,390.88
+535,2023-07-24,984,Customer_16780,202,Desk,Office,7,58.75,411.25
+536,2019-09-01,382,Customer_27492,204,Monitor,Electronics,6,90.54,543.24
+537,2022-11-30,983,Customer_12445,208,Notebook,Stationery,4,10.5,42.0
+538,2011-07-10,352,Customer_9234,202,Desk,Office,3,32.06,96.18
+539,2023-12-17,548,Customer_29606,204,Monitor,Electronics,1,87.07,87.07
+540,2023-02-20,898,Customer_8323,205,Printer,Electronics,4,33.68,134.72
+541,2015-02-10,276,Customer_23601,208,Notebook,Stationery,8,55.46,443.68
+542,2023-03-19,397,Customer_19095,209,Coffee Maker,Electronics,1,32.89,32.89
+543,2011-05-25,769,Customer_26363,208,Notebook,Stationery,3,81.31,243.93
+544,2021-02-17,142,Customer_7527,204,Monitor,Electronics,10,14.68,146.8
+545,2017-09-09,482,Customer_2112,200,Laptop,Electronics,6,36.9,221.4
+546,2013-10-25,708,Customer_3847,211,Plastic Cups,Sundry,7,45.68,319.76
+547,2010-07-20,900,Customer_15536,201,Smartphone,Electronics,2,71.24,142.48
+548,2022-01-06,419,Customer_5182,210,Cabinet,Office,2,32.25,64.5
+549,2013-03-11,928,Customer_5330,202,Desk,Office,2,58.37,116.74
+550,2013-10-16,128,Customer_14444,210,Cabinet,Office,8,83.79,670.32
+551,2020-11-15,495,Customer_2334,205,Printer,Electronics,5,38.98,194.9
+552,2015-12-02,688,Customer_22878,205,Printer,Electronics,3,62.83,188.49
+553,2018-08-22,187,Customer_18538,209,Coffee Maker,Electronics,7,45.68,319.76
+554,2011-11-21,233,Customer_21865,210,Cabinet,Office,2,33.77,67.54
+555,2010-11-03,545,Customer_28872,205,Printer,Electronics,8,86.84,694.72
+556,2014-09-21,528,Customer_8,200,Laptop,Electronics,6,64.49,386.94
+557,2016-01-22,275,Customer_18268,210,Cabinet,Office,5,58.13,290.65000000000003
+558,2023-02-27,895,Customer_25947,209,Coffee Maker,Electronics,6,59.7,358.20000000000005
+559,2011-05-10,628,Customer_12872,200,Laptop,Electronics,9,81.49,733.41
+560,2010-10-21,850,Customer_16726,203,Chair,Office,1,51.33,51.33
+561,2016-03-30,746,Customer_31475,205,Printer,Electronics,3,66.65,199.95
+562,2023-02-11,309,Customer_11510,202,Desk,Office,8,6.67,53.36
+563,2013-07-22,900,Customer_4433,209,Coffee Maker,Electronics,1,21.95,21.95
+564,2021-02-28,706,Customer_29826,203,Chair,Office,8,37.16,297.28
+565,2017-03-01,848,Customer_32210,204,Monitor,Electronics,4,36.55,146.2
+566,2017-08-08,723,Customer_21583,210,Cabinet,Office,5,81.21,406.05
+567,2015-04-28,215,Customer_4230,209,Coffee Maker,Electronics,3,30.18,90.54
+568,2016-09-13,372,Customer_21503,205,Printer,Electronics,2,96.85,193.7
+569,2013-03-27,173,Customer_23652,202,Desk,Office,5,66.91,334.54999999999995
+570,2018-06-01,952,Customer_27403,200,Laptop,Electronics,3,77.96,233.88
+571,2010-09-21,374,Customer_39,206,Paper,Stationery,7,18.91,132.37
+572,2016-07-27,544,Customer_4875,204,Monitor,Electronics,2,26.06,52.12
+573,2013-04-22,203,Customer_27566,210,Cabinet,Office,7,32.78,229.46
+574,2015-02-12,723,Customer_24395,201,Smartphone,Electronics,4,7.34,29.36
+575,2017-11-11,121,Customer_10584,206,Paper,Stationery,1,84.43,84.43
+576,2023-12-22,198,Customer_5712,206,Paper,Stationery,1,8.01,8.01
+577,2016-12-31,966,Customer_13756,207,Pen,Stationery,9,62.46,562.14
+578,2021-06-29,788,Customer_25181,202,Desk,Office,3,89.88,269.64
+579,2014-04-26,323,Customer_20766,206,Paper,Stationery,2,91.67,183.34
+580,2018-12-21,106,Customer_21202,208,Notebook,Stationery,3,97.44,292.32
+581,2010-02-17,815,Customer_17785,201,Smartphone,Electronics,7,72.81,509.67
+582,2012-12-24,535,Customer_13542,210,Cabinet,Office,6,30.8,184.8
+583,2018-01-08,654,Customer_32448,202,Desk,Office,3,17.54,52.62
+584,2021-01-25,550,Customer_12345,209,Coffee Maker,Electronics,9,62.33,560.97
+585,2018-04-20,592,Customer_30287,209,Coffee Maker,Electronics,5,62.84,314.20000000000005
+586,2018-03-03,952,Customer_7571,209,Coffee Maker,Electronics,1,97.57,97.57
+587,2012-06-11,270,Customer_12233,211,Plastic Cups,Sundry,6,75.79,454.74
+588,2013-11-24,348,Customer_22298,204,Monitor,Electronics,6,8.86,53.16
+589,2010-05-14,478,Customer_12202,209,Coffee Maker,Electronics,4,32.56,130.24
+590,2022-04-14,768,Customer_19913,209,Coffee Maker,Electronics,8,40.68,325.44
+591,2013-02-09,829,Customer_2692,202,Desk,Office,5,59.0,295.0
+592,2022-07-29,177,Customer_18843,210,Cabinet,Office,7,16.86,118.02
+593,2011-01-31,220,Customer_4260,208,Notebook,Stationery,7,19.11,133.76999999999998
+594,2017-09-21,423,Customer_8595,202,Desk,Office,3,71.7,215.1
+595,2013-03-06,553,Customer_1742,203,Chair,Office,3,91.44,274.32
+596,2012-05-30,971,Customer_18402,210,Cabinet,Office,8,31.34,250.72
+597,2020-11-05,218,Customer_17290,206,Paper,Stationery,7,31.06,217.42
+598,2021-02-03,360,Customer_13148,208,Notebook,Stationery,4,64.89,259.56
+599,2020-04-09,975,Customer_4859,205,Printer,Electronics,5,23.96,119.8
+600,2022-09-19,452,Customer_31435,211,Plastic Cups,Sundry,4,45.53,182.12
+601,2015-07-16,973,Customer_30149,206,Paper,Stationery,9,45.06,405.54
+602,2014-02-05,386,Customer_31346,207,Pen,Stationery,2,91.39,182.78
+603,2014-09-06,747,Customer_20186,205,Printer,Electronics,3,12.38,37.14
+604,2020-04-26,496,Customer_18914,211,Plastic Cups,Sundry,9,30.95,278.55
+605,2020-08-09,205,Customer_27094,205,Printer,Electronics,1,93.16,93.16
+606,2023-06-05,275,Customer_22825,207,Pen,Stationery,1,54.9,54.9
+607,2018-11-14,104,Customer_801,208,Notebook,Stationery,4,32.4,129.6
+608,2020-08-31,283,Customer_32163,205,Printer,Electronics,3,80.54,241.62
+609,2017-10-27,268,Customer_20824,210,Cabinet,Office,10,38.63,386.3
+610,2021-07-15,573,Customer_28298,209,Coffee Maker,Electronics,5,79.75,398.75
+611,2023-05-09,733,Customer_15978,208,Notebook,Stationery,6,23.45,140.7
+612,2021-10-05,320,Customer_1322,205,Printer,Electronics,2,97.97,195.94
+613,2012-09-06,136,Customer_14022,207,Pen,Stationery,8,73.09,584.72
+614,2011-03-23,592,Customer_29299,204,Monitor,Electronics,9,30.3,272.7
+615,2013-12-26,382,Customer_25035,205,Printer,Electronics,6,64.51,387.06000000000006
+616,2023-04-03,973,Customer_16419,210,Cabinet,Office,4,84.68,338.72
+617,2015-09-28,776,Customer_17404,206,Paper,Stationery,8,70.36,562.88
+618,2011-06-25,135,Customer_16331,204,Monitor,Electronics,9,40.95,368.55
+619,2019-01-18,400,Customer_30138,203,Chair,Office,1,85.46,85.46
+620,2012-12-24,904,Customer_218,207,Pen,Stationery,10,16.64,166.4
+621,2016-02-28,638,Customer_22875,210,Cabinet,Office,9,42.08,378.72
+622,2016-06-02,473,Customer_12027,202,Desk,Office,1,23.68,23.68
+623,2014-12-14,872,Customer_32371,205,Printer,Electronics,1,25.98,25.98
+624,2019-09-21,992,Customer_29475,200,Laptop,Electronics,2,15.45,30.9
+625,2021-12-24,371,Customer_15360,207,Pen,Stationery,5,44.87,224.35
+626,2016-03-25,904,Customer_22822,207,Pen,Stationery,5,50.13,250.65
+627,2011-04-09,239,Customer_2074,206,Paper,Stationery,5,27.35,136.75
+628,2013-08-01,931,Customer_14202,210,Cabinet,Office,8,30.6,244.8
+629,2010-01-25,969,Customer_18713,202,Desk,Office,10,22.77,227.7
+630,2020-11-25,261,Customer_3576,204,Monitor,Electronics,1,63.15,63.15
+631,2023-03-12,680,Customer_26741,200,Laptop,Electronics,5,95.33,476.65
+632,2015-07-08,481,Customer_13999,202,Desk,Office,5,32.08,160.39999999999998
+633,2013-10-27,997,Customer_29542,200,Laptop,Electronics,3,6.78,20.34
+634,2011-11-13,147,Customer_31866,208,Notebook,Stationery,4,73.63,294.52
+635,2017-01-10,839,Customer_12495,201,Smartphone,Electronics,1,93.17,93.17
+636,2021-09-13,147,Customer_4342,201,Smartphone,Electronics,10,3.64,36.4
+637,2018-05-26,544,Customer_25010,202,Desk,Office,6,37.49,224.94
+638,2016-08-13,633,Customer_13118,210,Cabinet,Office,6,12.61,75.66
+639,2023-06-23,418,Customer_13729,211,Plastic Cups,Sundry,4,45.59,182.36
+640,2010-05-06,173,Customer_30429,207,Pen,Stationery,6,47.88,287.28000000000003
+641,2012-07-26,491,Customer_23428,205,Printer,Electronics,9,79.14,712.26
+642,2021-03-22,595,Customer_25104,209,Coffee Maker,Electronics,2,70.93,141.86
+643,2015-03-30,876,Customer_27394,207,Pen,Stationery,1,4.43,4.43
+644,2012-10-29,975,Customer_14928,210,Cabinet,Office,4,85.6,342.4
+645,2020-03-21,375,Customer_14360,201,Smartphone,Electronics,2,91.15,182.3
+646,2011-08-13,926,Customer_31535,211,Plastic Cups,Sundry,8,52.65,421.2
+647,2015-01-03,452,Customer_10002,210,Cabinet,Office,4,44.95,179.8
+648,2014-05-17,363,Customer_17236,201,Smartphone,Electronics,9,69.49,625.41
+649,2022-12-11,336,Customer_26012,208,Notebook,Stationery,9,62.98,566.8199999999999
+650,2020-09-01,137,Customer_27031,209,Coffee Maker,Electronics,2,51.87,103.74
+651,2010-10-04,559,Customer_11799,211,Plastic Cups,Sundry,3,36.42,109.26
+652,2014-03-02,650,Customer_14061,210,Cabinet,Office,10,20.2,202.0
+653,2019-10-11,582,Customer_1955,208,Notebook,Stationery,9,52.87,475.83
+654,2019-07-06,120,Customer_28826,206,Paper,Stationery,10,20.73,207.3
+655,2017-11-23,466,Customer_5345,208,Notebook,Stationery,9,76.0,684.0
+656,2020-09-11,720,Customer_26118,201,Smartphone,Electronics,1,99.51,99.51
+657,2010-08-10,129,Customer_32272,209,Coffee Maker,Electronics,5,98.22,491.1
+658,2010-03-28,918,Customer_16387,205,Printer,Electronics,7,33.09,231.63
+659,2020-08-08,395,Customer_1481,211,Plastic Cups,Sundry,7,50.19,351.33
+660,2012-01-11,786,Customer_16696,205,Printer,Electronics,8,11.03,88.24
+661,2021-10-09,314,Customer_8606,200,Laptop,Electronics,2,38.47,76.94
+662,2023-12-19,910,Customer_28759,209,Coffee Maker,Electronics,4,93.32,373.28
+663,2017-01-01,140,Customer_19595,200,Laptop,Electronics,4,80.83,323.32
+664,2016-04-08,469,Customer_6134,204,Monitor,Electronics,5,49.71,248.55
+665,2013-11-29,932,Customer_11688,203,Chair,Office,7,75.2,526.4
+666,2011-11-19,934,Customer_14678,206,Paper,Stationery,7,54.32,380.24
+667,2015-07-14,869,Customer_18056,202,Desk,Office,10,25.09,250.9
+668,2023-09-29,499,Customer_13301,202,Desk,Office,1,35.36,35.36
+669,2015-07-30,290,Customer_20359,208,Notebook,Stationery,10,32.62,326.2
+670,2023-03-06,109,Customer_16577,201,Smartphone,Electronics,8,57.91,463.28
+671,2011-09-16,351,Customer_25297,200,Laptop,Electronics,3,21.94,65.82000000000001
+672,2022-03-19,621,Customer_17300,203,Chair,Office,8,49.48,395.84
+673,2012-01-01,144,Customer_22035,200,Laptop,Electronics,2,47.51,95.02
+674,2019-06-07,573,Customer_7154,202,Desk,Office,2,84.42,168.84
+675,2022-12-16,840,Customer_20885,205,Printer,Electronics,1,58.62,58.62
+676,2020-03-10,557,Customer_19403,202,Desk,Office,8,41.58,332.64
+677,2010-09-26,141,Customer_23561,200,Laptop,Electronics,4,66.36,265.44
+678,2012-06-13,921,Customer_16233,200,Laptop,Electronics,5,94.63,473.15
+679,2021-03-14,203,Customer_13894,200,Laptop,Electronics,5,37.68,188.4
+680,2022-11-02,863,Customer_10451,202,Desk,Office,4,9.31,37.24
+681,2015-03-29,802,Customer_12710,206,Paper,Stationery,4,9.41,37.64
+682,2012-02-17,517,Customer_28735,210,Cabinet,Office,7,85.36,597.52
+683,2023-07-09,858,Customer_10104,201,Smartphone,Electronics,4,52.87,211.48
+684,2010-12-11,395,Customer_12421,209,Coffee Maker,Electronics,5,76.29,381.4500000000001
+685,2013-07-02,545,Customer_18397,200,Laptop,Electronics,6,90.01,540.0600000000001
+686,2017-08-14,438,Customer_23183,203,Chair,Office,4,90.24,360.96
+687,2014-06-07,744,Customer_13784,208,Notebook,Stationery,8,19.52,156.16
+688,2012-02-05,598,Customer_29839,211,Plastic Cups,Sundry,5,65.32,326.6
+689,2019-12-15,341,Customer_6100,205,Printer,Electronics,7,86.53,605.71
+690,2017-05-13,612,Customer_7126,202,Desk,Office,4,53.8,215.2
+691,2015-04-03,842,Customer_9264,204,Monitor,Electronics,3,68.29,204.87
+692,2019-07-24,170,Customer_18525,210,Cabinet,Office,7,78.68,550.76
+693,2014-06-26,594,Customer_20200,202,Desk,Office,7,96.43,675.01
+694,2023-11-08,218,Customer_26795,208,Notebook,Stationery,4,64.88,259.52
+695,2015-03-08,850,Customer_10834,210,Cabinet,Office,5,17.57,87.85
+696,2019-02-05,185,Customer_30676,204,Monitor,Electronics,7,87.18,610.26
+697,2023-08-21,260,Customer_16803,205,Printer,Electronics,9,16.15,145.35
+698,2014-02-08,359,Customer_780,200,Laptop,Electronics,6,41.89,251.34
+699,2012-09-17,435,Customer_27735,209,Coffee Maker,Electronics,3,31.49,94.47
+700,2022-06-17,464,Customer_9663,202,Desk,Office,1,67.25,67.25
+701,2010-01-02,617,Customer_8801,207,Pen,Stationery,10,11.28,112.8
+702,2020-04-22,376,Customer_13858,209,Coffee Maker,Electronics,5,90.1,450.5
+703,2018-01-19,432,Customer_4823,205,Printer,Electronics,6,58.45,350.70000000000005
+704,2014-04-15,789,Customer_30058,205,Printer,Electronics,3,62.08,186.24
+705,2012-12-23,947,Customer_18137,211,Plastic Cups,Sundry,5,89.66,448.3
+706,2014-08-19,611,Customer_16654,205,Printer,Electronics,7,8.45,59.14999999999999
+707,2019-07-23,211,Customer_12406,209,Coffee Maker,Electronics,4,69.24,276.96
+708,2015-10-03,397,Customer_9805,206,Paper,Stationery,10,39.02,390.2000000000001
+709,2018-04-25,862,Customer_30646,205,Printer,Electronics,8,65.54,524.32
+710,2018-03-19,563,Customer_16923,201,Smartphone,Electronics,8,87.12,696.96
+711,2016-11-06,732,Customer_11094,206,Paper,Stationery,10,71.94,719.4
+712,2011-07-18,573,Customer_6098,207,Pen,Stationery,1,14.13,14.13
+713,2011-05-06,634,Customer_23392,211,Plastic Cups,Sundry,9,46.92,422.28
+714,2010-05-13,406,Customer_7019,206,Paper,Stationery,2,59.37,118.74
+715,2022-08-21,766,Customer_817,200,Laptop,Electronics,2,67.84,135.68
+716,2023-05-27,303,Customer_12700,206,Paper,Stationery,6,88.72,532.3199999999999
+717,2017-09-12,614,Customer_6269,210,Cabinet,Office,4,23.27,93.08
+718,2018-02-02,839,Customer_17447,200,Laptop,Electronics,8,33.22,265.76
+719,2012-08-17,551,Customer_28460,209,Coffee Maker,Electronics,2,26.78,53.56
+720,2022-03-21,227,Customer_24481,200,Laptop,Electronics,1,67.27,67.27
+721,2016-02-05,876,Customer_23419,209,Coffee Maker,Electronics,4,54.82,219.28
+722,2011-08-15,498,Customer_8040,203,Chair,Office,8,22.12,176.96
+723,2020-05-01,271,Customer_6834,203,Chair,Office,1,43.02,43.02
+724,2022-02-20,228,Customer_12590,205,Printer,Electronics,6,41.48,248.88
+725,2012-03-31,130,Customer_26204,202,Desk,Office,5,79.08,395.4
+726,2011-10-20,458,Customer_25030,210,Cabinet,Office,10,41.29,412.9
+727,2011-06-09,505,Customer_6408,200,Laptop,Electronics,6,45.06,270.36
+728,2023-07-17,327,Customer_32506,207,Pen,Stationery,2,62.39,124.78
+729,2021-02-22,345,Customer_4199,204,Monitor,Electronics,2,90.18,180.36
+730,2013-12-15,253,Customer_3792,201,Smartphone,Electronics,1,19.06,19.06
+731,2019-01-29,890,Customer_28655,206,Paper,Stationery,2,39.73,79.46
+732,2010-04-08,834,Customer_16597,203,Chair,Office,1,17.05,17.05
+733,2023-05-03,917,Customer_10028,210,Cabinet,Office,7,69.3,485.1
+734,2012-04-28,200,Customer_843,211,Plastic Cups,Sundry,5,13.69,68.45
+735,2020-11-12,590,Customer_22182,208,Notebook,Stationery,10,84.32,843.1999999999999
+736,2013-08-24,699,Customer_7769,202,Desk,Office,8,71.95,575.6
+737,2012-02-12,997,Customer_634,205,Printer,Electronics,10,58.76,587.6
+738,2012-08-19,871,Customer_20791,209,Coffee Maker,Electronics,9,12.86,115.74
+739,2011-02-17,709,Customer_5473,202,Desk,Office,7,58.91,412.37
+740,2018-01-29,268,Customer_9517,202,Desk,Office,10,46.2,462.0
+741,2014-06-19,808,Customer_14536,210,Cabinet,Office,4,98.14,392.56
+742,2018-06-09,217,Customer_25058,207,Pen,Stationery,4,31.05,124.2
+743,2013-03-01,422,Customer_8258,202,Desk,Office,2,81.29,162.58
+744,2015-05-28,265,Customer_27765,201,Smartphone,Electronics,9,59.15,532.35
+745,2012-10-25,193,Customer_26704,209,Coffee Maker,Electronics,4,99.54,398.16
+746,2019-10-08,603,Customer_16590,211,Plastic Cups,Sundry,1,62.95,62.95
+747,2016-10-26,307,Customer_22283,202,Desk,Office,3,27.94,83.82000000000001
+748,2014-04-30,212,Customer_5015,200,Laptop,Electronics,1,43.72,43.72
+749,2014-04-07,471,Customer_16843,203,Chair,Office,7,46.32,324.24
+750,2021-12-08,257,Customer_10628,200,Laptop,Electronics,1,44.51,44.51
+751,2016-10-07,466,Customer_31066,209,Coffee Maker,Electronics,4,39.54,158.16
+752,2021-11-08,628,Customer_27553,201,Smartphone,Electronics,4,55.86,223.44
+753,2021-04-19,408,Customer_19721,200,Laptop,Electronics,1,95.93,95.93
+754,2018-09-21,925,Customer_23273,200,Laptop,Electronics,9,63.87,574.8299999999999
+755,2015-01-28,194,Customer_19258,210,Cabinet,Office,3,10.82,32.46
+756,2013-10-06,169,Customer_27904,203,Chair,Office,3,39.95,119.85
+757,2013-08-06,798,Customer_796,200,Laptop,Electronics,4,2.56,10.24
+758,2014-09-21,503,Customer_13242,200,Laptop,Electronics,7,91.6,641.1999999999999
+759,2011-07-11,473,Customer_7987,208,Notebook,Stationery,2,46.48,92.96
+760,2011-04-09,816,Customer_12591,209,Coffee Maker,Electronics,7,32.86,230.02
+761,2013-08-25,324,Customer_1368,211,Plastic Cups,Sundry,4,8.69,34.76
+762,2023-04-21,139,Customer_27589,200,Laptop,Electronics,4,8.52,34.08
+763,2018-12-05,249,Customer_11090,209,Coffee Maker,Electronics,7,59.76,418.32
+764,2015-08-07,582,Customer_10698,207,Pen,Stationery,6,38.87,233.22
+765,2016-03-30,901,Customer_13521,209,Coffee Maker,Electronics,10,68.57,685.6999999999999
+766,2014-04-16,947,Customer_29961,210,Cabinet,Office,2,29.08,58.16
+767,2010-01-05,707,Customer_19687,208,Notebook,Stationery,7,29.9,209.3
+768,2016-12-20,531,Customer_30023,202,Desk,Office,9,19.92,179.28000000000003
+769,2021-05-11,101,Customer_11134,201,Smartphone,Electronics,7,18.62,130.34
+770,2018-11-21,478,Customer_26454,210,Cabinet,Office,1,49.06,49.06
+771,2016-02-24,347,Customer_1741,204,Monitor,Electronics,7,2.91,20.37
+772,2020-07-28,242,Customer_13310,209,Coffee Maker,Electronics,3,55.62,166.86
+773,2013-04-16,344,Customer_27245,200,Laptop,Electronics,10,92.47,924.7
+774,2022-12-03,476,Customer_29957,210,Cabinet,Office,9,35.88,322.92
+775,2021-06-14,469,Customer_7924,205,Printer,Electronics,1,90.06,90.06
+776,2014-06-14,124,Customer_21240,206,Paper,Stationery,6,9.39,56.34
+777,2021-11-01,717,Customer_18384,207,Pen,Stationery,3,65.53,196.59
+778,2014-04-24,334,Customer_13738,202,Desk,Office,7,46.98,328.86
+779,2016-02-05,162,Customer_14427,206,Paper,Stationery,2,3.52,7.04
+780,2023-07-13,546,Customer_3173,206,Paper,Stationery,2,14.14,28.28
+781,2011-12-28,740,Customer_7092,200,Laptop,Electronics,4,23.9,95.6
+782,2016-02-08,175,Customer_2443,210,Cabinet,Office,1,47.82,47.82
+783,2010-01-15,615,Customer_4389,207,Pen,Stationery,3,56.87,170.61
+784,2020-03-12,882,Customer_12777,210,Cabinet,Office,9,99.85,898.65
+785,2016-05-23,864,Customer_21465,202,Desk,Office,10,12.04,120.4
+786,2012-04-23,653,Customer_20160,208,Notebook,Stationery,10,21.7,217.0
+787,2022-01-16,519,Customer_26487,209,Coffee Maker,Electronics,9,70.07,630.6299999999999
+788,2023-08-11,517,Customer_12017,204,Monitor,Electronics,4,21.82,87.28
+789,2019-03-07,793,Customer_1810,210,Cabinet,Office,3,85.61,256.83
+790,2016-06-06,479,Customer_15909,209,Coffee Maker,Electronics,9,6.27,56.42999999999999
+791,2023-03-22,451,Customer_27024,206,Paper,Stationery,10,28.83,288.29999999999995
+792,2023-02-23,683,Customer_11726,200,Laptop,Electronics,9,10.01,90.09
+793,2019-05-09,650,Customer_25023,209,Coffee Maker,Electronics,3,14.75,44.25
+794,2018-12-20,352,Customer_10651,201,Smartphone,Electronics,8,41.81,334.48
+795,2014-09-11,539,Customer_31613,210,Cabinet,Office,10,27.34,273.4
+796,2022-09-14,573,Customer_24968,200,Laptop,Electronics,6,10.99,65.94
+797,2014-06-05,638,Customer_2159,211,Plastic Cups,Sundry,9,57.79,520.11
+798,2022-03-09,468,Customer_12759,201,Smartphone,Electronics,4,76.63,306.52
+799,2013-01-11,408,Customer_19180,205,Printer,Electronics,1,87.5,87.5
+800,2017-06-27,854,Customer_25911,211,Plastic Cups,Sundry,10,74.95,749.5
+801,2013-08-03,142,Customer_19471,206,Paper,Stationery,2,28.08,56.16
+802,2022-06-26,497,Customer_19731,204,Monitor,Electronics,6,9.05,54.3
+803,2011-10-11,571,Customer_18291,201,Smartphone,Electronics,9,46.46,418.14
+804,2016-10-31,356,Customer_17838,206,Paper,Stationery,7,49.44,346.08
+805,2013-03-20,425,Customer_4813,211,Plastic Cups,Sundry,7,23.07,161.49
+806,2017-01-23,628,Customer_17316,204,Monitor,Electronics,4,50.12,200.48
+807,2021-01-07,395,Customer_6755,201,Smartphone,Electronics,2,44.47,88.94
+808,2020-01-04,694,Customer_8290,201,Smartphone,Electronics,1,70.88,70.88
+809,2014-07-25,425,Customer_10603,202,Desk,Office,5,31.89,159.45
+810,2016-10-02,339,Customer_29012,204,Monitor,Electronics,4,94.54,378.16
+811,2022-08-27,487,Customer_30625,205,Printer,Electronics,10,14.94,149.4
+812,2023-06-29,327,Customer_18496,211,Plastic Cups,Sundry,3,62.32,186.96
+813,2021-08-28,235,Customer_8363,211,Plastic Cups,Sundry,2,42.06,84.12
+814,2011-09-05,627,Customer_718,204,Monitor,Electronics,2,55.93,111.86
+815,2014-10-15,908,Customer_13891,207,Pen,Stationery,4,74.8,299.2
+816,2020-05-09,982,Customer_25023,210,Cabinet,Office,3,8.24,24.72
+817,2020-06-13,994,Customer_32550,209,Coffee Maker,Electronics,8,46.63,373.04
+818,2010-08-02,978,Customer_19265,210,Cabinet,Office,3,5.9,17.700000000000003
+819,2022-12-25,938,Customer_21975,208,Notebook,Stationery,7,38.58,270.06
+820,2015-12-04,125,Customer_31574,202,Desk,Office,1,5.77,5.77
+821,2011-09-19,598,Customer_2004,204,Monitor,Electronics,10,27.86,278.6
+822,2013-05-21,372,Customer_838,205,Printer,Electronics,10,12.59,125.9
+823,2022-03-03,941,Customer_18779,209,Coffee Maker,Electronics,6,92.9,557.4000000000001
+824,2014-06-02,999,Customer_11596,210,Cabinet,Office,3,73.36,220.08
+825,2016-08-19,311,Customer_30920,202,Desk,Office,1,30.01,30.01
+826,2020-05-29,877,Customer_18007,208,Notebook,Stationery,4,63.33,253.32
+827,2021-11-17,305,Customer_5463,201,Smartphone,Electronics,10,76.88,768.8
+828,2018-08-29,890,Customer_12619,207,Pen,Stationery,7,2.14,14.98
+829,2019-01-14,465,Customer_19583,206,Paper,Stationery,10,30.05,300.5
+830,2016-10-11,248,Customer_25707,205,Printer,Electronics,6,30.08,180.48
+831,2021-03-22,468,Customer_4334,200,Laptop,Electronics,3,35.59,106.77
+832,2017-04-17,156,Customer_5098,200,Laptop,Electronics,7,2.52,17.64
+833,2013-06-19,586,Customer_6267,209,Coffee Maker,Electronics,7,38.98,272.86
+834,2018-04-10,744,Customer_29652,201,Smartphone,Electronics,5,90.94,454.7
+835,2019-06-10,164,Customer_27886,210,Cabinet,Office,5,87.68,438.4
+836,2022-12-29,830,Customer_903,208,Notebook,Stationery,6,50.1,300.6
+837,2021-04-18,882,Customer_10658,205,Printer,Electronics,9,71.15,640.35
+838,2013-10-27,877,Customer_9928,203,Chair,Office,8,21.74,173.92
+839,2021-06-02,990,Customer_28220,201,Smartphone,Electronics,3,83.72,251.16
+840,2022-04-12,160,Customer_401,205,Printer,Electronics,2,85.99,171.98
+841,2016-08-08,756,Customer_20214,204,Monitor,Electronics,8,36.36,290.88
+842,2010-11-06,886,Customer_17725,207,Pen,Stationery,9,48.42,435.78
+843,2012-08-03,668,Customer_29643,210,Cabinet,Office,7,12.2,85.39999999999999
+844,2022-05-18,583,Customer_26174,202,Desk,Office,3,40.71,122.13
+845,2012-04-22,128,Customer_21026,211,Plastic Cups,Sundry,2,60.12,120.24
+846,2014-05-15,648,Customer_13185,206,Paper,Stationery,4,57.53,230.12
+847,2023-12-26,538,Customer_14993,203,Chair,Office,4,99.64,398.56
+848,2010-05-16,692,Customer_22825,207,Pen,Stationery,2,14.25,28.5
+849,2017-03-13,260,Customer_30685,202,Desk,Office,8,8.45,67.6
+850,2018-08-20,678,Customer_7417,210,Cabinet,Office,8,13.87,110.96
+851,2019-03-22,887,Customer_31593,200,Laptop,Electronics,4,96.34,385.36
+852,2018-07-30,805,Customer_17479,201,Smartphone,Electronics,10,56.94,569.4
+853,2013-04-02,729,Customer_8323,202,Desk,Office,7,19.43,136.01
+854,2010-12-01,255,Customer_16161,200,Laptop,Electronics,2,97.5,195.0
+855,2017-04-11,517,Customer_16136,206,Paper,Stationery,2,87.89,175.78
+856,2020-07-30,866,Customer_8912,211,Plastic Cups,Sundry,10,8.23,82.30000000000001
+857,2014-09-25,510,Customer_54,207,Pen,Stationery,1,21.8,21.8
+858,2011-03-31,816,Customer_868,201,Smartphone,Electronics,4,64.64,258.56
+859,2022-03-21,238,Customer_9464,204,Monitor,Electronics,6,11.18,67.08
+860,2022-03-20,943,Customer_22798,208,Notebook,Stationery,2,41.63,83.26
+861,2020-11-21,792,Customer_6541,209,Coffee Maker,Electronics,8,59.3,474.4
+862,2013-12-25,216,Customer_18599,201,Smartphone,Electronics,2,65.14,130.28
+863,2019-03-15,215,Customer_677,208,Notebook,Stationery,9,61.11,549.99
+864,2021-02-02,491,Customer_10745,202,Desk,Office,2,81.6,163.2
+865,2014-08-24,459,Customer_17583,208,Notebook,Stationery,7,99.73,698.11
+866,2012-05-17,535,Customer_16050,204,Monitor,Electronics,1,99.76,99.76
+867,2015-02-14,812,Customer_2139,209,Coffee Maker,Electronics,1,42.73,42.73
+868,2015-05-07,759,Customer_14621,207,Pen,Stationery,1,96.42,96.42
+869,2013-06-18,264,Customer_3865,200,Laptop,Electronics,6,59.97,359.82
+870,2017-03-07,148,Customer_13660,207,Pen,Stationery,4,38.51,154.04
+871,2013-10-31,492,Customer_30636,211,Plastic Cups,Sundry,7,85.52,598.64
+872,2020-12-12,151,Customer_22645,209,Coffee Maker,Electronics,9,38.09,342.81000000000006
+873,2017-06-11,766,Customer_6129,200,Laptop,Electronics,3,17.12,51.36
+874,2012-02-19,870,Customer_31746,201,Smartphone,Electronics,8,59.85,478.8
+875,2017-01-07,821,Customer_8631,200,Laptop,Electronics,1,87.94,87.94
+876,2012-07-08,457,Customer_14197,210,Cabinet,Office,9,23.95,215.55
+877,2019-12-06,605,Customer_25773,206,Paper,Stationery,5,21.55,107.75
+878,2014-09-08,617,Customer_24956,203,Chair,Office,8,23.71,189.68
+879,2022-06-12,812,Customer_11509,200,Laptop,Electronics,10,50.14,501.4
+880,2011-02-19,929,Customer_11117,210,Cabinet,Office,8,15.74,125.92
+881,2010-12-20,996,Customer_6255,210,Cabinet,Office,1,3.55,3.55
+882,2010-12-18,948,Customer_5150,209,Coffee Maker,Electronics,9,51.4,462.6
+883,2021-06-10,707,Customer_32611,207,Pen,Stationery,3,49.04,147.12
+884,2016-01-06,966,Customer_12948,207,Pen,Stationery,2,47.89,95.78
+885,2021-02-08,836,Customer_28121,204,Monitor,Electronics,10,62.54,625.4
+886,2016-02-11,688,Customer_2450,203,Chair,Office,2,42.19,84.38
+887,2017-11-05,962,Customer_7767,204,Monitor,Electronics,9,96.03,864.27
+888,2020-12-16,267,Customer_32353,209,Coffee Maker,Electronics,7,54.98,384.86
+889,2023-11-07,735,Customer_10451,211,Plastic Cups,Sundry,2,91.15,182.3
+890,2020-01-16,149,Customer_30830,208,Notebook,Stationery,5,75.62,378.1
+891,2018-11-26,625,Customer_21226,200,Laptop,Electronics,3,88.67,266.01
+892,2022-04-03,509,Customer_30600,200,Laptop,Electronics,9,40.39,363.51
+893,2012-04-14,919,Customer_23821,211,Plastic Cups,Sundry,10,68.58,685.8
+894,2010-03-30,122,Customer_18867,206,Paper,Stationery,9,60.82,547.38
+895,2011-02-16,535,Customer_17399,204,Monitor,Electronics,9,12.64,113.76
+896,2017-07-08,737,Customer_22264,204,Monitor,Electronics,7,67.43,472.0100000000001
+897,2019-10-11,349,Customer_30563,203,Chair,Office,8,3.57,28.56
+898,2014-04-01,295,Customer_8301,206,Paper,Stationery,3,17.55,52.650000000000006
+899,2015-11-21,711,Customer_13153,203,Chair,Office,10,47.95,479.5
+900,2012-05-09,733,Customer_3379,205,Printer,Electronics,4,38.14,152.56
+901,2017-12-19,792,Customer_13643,210,Cabinet,Office,7,33.29,233.03
+902,2012-12-11,524,Customer_22780,205,Printer,Electronics,10,49.99,499.9
+903,2020-01-27,533,Customer_9487,202,Desk,Office,6,86.29,517.74
+904,2016-05-16,514,Customer_32255,208,Notebook,Stationery,3,40.42,121.26
+905,2021-11-25,692,Customer_26285,200,Laptop,Electronics,6,62.96,377.76
+906,2016-09-20,481,Customer_31259,202,Desk,Office,8,19.1,152.8
+907,2023-02-20,681,Customer_4775,209,Coffee Maker,Electronics,2,27.13,54.26
+908,2015-02-20,850,Customer_31048,207,Pen,Stationery,6,5.52,33.12
+909,2019-02-18,441,Customer_3534,211,Plastic Cups,Sundry,5,83.42,417.1
+910,2020-11-15,911,Customer_3051,207,Pen,Stationery,10,28.8,288.0
+911,2022-05-11,947,Customer_12299,202,Desk,Office,9,92.99,836.91
+912,2011-06-28,863,Customer_29051,205,Printer,Electronics,8,66.05,528.4
+913,2017-07-10,712,Customer_7794,209,Coffee Maker,Electronics,2,42.65,85.3
+914,2013-01-03,813,Customer_20825,201,Smartphone,Electronics,10,93.39,933.9
+915,2012-03-14,708,Customer_5177,204,Monitor,Electronics,7,12.95,90.65
+916,2018-01-13,523,Customer_28416,208,Notebook,Stationery,5,90.9,454.5
+917,2011-05-03,505,Customer_22529,211,Plastic Cups,Sundry,1,5.19,5.19
+918,2018-10-10,363,Customer_9975,202,Desk,Office,6,88.33,529.98
+919,2014-09-12,314,Customer_20808,210,Cabinet,Office,3,59.6,178.8
+920,2014-06-19,276,Customer_19102,208,Notebook,Stationery,3,51.39,154.17000000000002
+921,2023-10-30,561,Customer_18903,204,Monitor,Electronics,6,30.47,182.82
+922,2010-01-01,589,Customer_8177,200,Laptop,Electronics,1,45.26,45.26
+923,2020-10-11,977,Customer_27334,205,Printer,Electronics,9,15.73,141.57
+924,2011-06-09,209,Customer_11771,200,Laptop,Electronics,2,76.32,152.64
+925,2015-03-27,529,Customer_25519,201,Smartphone,Electronics,2,93.74,187.48
+926,2012-05-18,257,Customer_24746,204,Monitor,Electronics,4,67.72,270.88
+927,2018-05-21,530,Customer_7281,205,Printer,Electronics,9,53.94,485.46
+928,2015-03-09,973,Customer_20474,203,Chair,Office,4,4.34,17.36
+929,2021-07-21,425,Customer_5534,209,Coffee Maker,Electronics,2,50.63,101.26
+930,2012-01-16,772,Customer_390,208,Notebook,Stationery,6,94.38,566.28
+931,2018-10-02,832,Customer_17812,206,Paper,Stationery,6,54.53,327.18
+932,2017-08-27,997,Customer_23322,209,Coffee Maker,Electronics,8,26.6,212.8
+933,2010-03-21,241,Customer_21703,207,Pen,Stationery,7,83.25,582.75
+934,2016-04-03,614,Customer_27498,201,Smartphone,Electronics,6,62.41,374.46
+935,2011-07-30,350,Customer_15737,209,Coffee Maker,Electronics,9,53.71,483.39
+936,2014-01-16,989,Customer_2253,200,Laptop,Electronics,10,35.53,355.3
+937,2012-02-14,437,Customer_5250,204,Monitor,Electronics,1,18.89,18.89
+938,2013-04-08,553,Customer_27534,201,Smartphone,Electronics,8,32.16,257.28
+939,2016-08-03,731,Customer_5054,210,Cabinet,Office,8,88.89,711.12
+940,2023-05-10,980,Customer_26766,203,Chair,Office,9,5.2,46.8
+941,2020-06-22,833,Customer_651,200,Laptop,Electronics,3,46.65,139.95
+942,2015-12-20,160,Customer_20410,207,Pen,Stationery,10,60.76,607.6
+943,2016-11-29,889,Customer_18810,207,Pen,Stationery,4,54.35,217.4
+944,2019-06-02,633,Customer_6077,203,Chair,Office,5,5.51,27.55
+945,2023-06-09,261,Customer_17610,203,Chair,Office,2,96.16,192.32
+946,2011-04-06,799,Customer_26440,200,Laptop,Electronics,5,42.12,210.6
+947,2015-03-14,282,Customer_30981,201,Smartphone,Electronics,10,69.5,695.0
+948,2021-04-10,432,Customer_15381,205,Printer,Electronics,4,90.58,362.32
+949,2018-11-20,481,Customer_19583,207,Pen,Stationery,5,15.82,79.1
+950,2016-03-25,303,Customer_5603,207,Pen,Stationery,5,20.13,100.65
+951,2018-02-14,927,Customer_2618,205,Printer,Electronics,8,46.04,368.32
+952,2019-09-25,534,Customer_25759,208,Notebook,Stationery,4,30.3,121.2
+953,2012-03-19,102,Customer_25894,205,Printer,Electronics,10,78.8,788.0
+954,2014-01-18,966,Customer_15553,202,Desk,Office,9,18.84,169.56
+955,2018-06-07,782,Customer_10218,210,Cabinet,Office,3,89.92,269.76
+956,2020-06-11,691,Customer_32651,210,Cabinet,Office,10,41.75,417.5
+957,2011-01-13,183,Customer_25182,200,Laptop,Electronics,3,91.95,275.85
+958,2022-10-06,739,Customer_32167,202,Desk,Office,5,22.4,112.0
+959,2020-12-21,747,Customer_21030,208,Notebook,Stationery,7,99.89,699.23
+960,2011-03-30,748,Customer_31735,206,Paper,Stationery,9,57.34,516.0600000000001
+961,2016-12-17,236,Customer_12696,205,Printer,Electronics,2,56.8,113.6
+962,2015-03-26,203,Customer_8243,206,Paper,Stationery,1,77.28,77.28
+963,2011-06-02,664,Customer_11824,209,Coffee Maker,Electronics,6,65.29,391.74
+964,2021-03-08,108,Customer_21317,205,Printer,Electronics,1,64.14,64.14
+965,2019-08-13,983,Customer_10461,201,Smartphone,Electronics,2,55.09,110.18
+966,2015-11-17,903,Customer_18780,209,Coffee Maker,Electronics,1,2.59,2.59
+967,2021-05-14,889,Customer_2547,209,Coffee Maker,Electronics,9,29.55,265.95
+968,2023-08-22,834,Customer_25511,202,Desk,Office,5,89.5,447.5
+969,2014-10-13,635,Customer_11757,204,Monitor,Electronics,7,61.94,433.58
+970,2020-01-17,736,Customer_16473,204,Monitor,Electronics,10,16.55,165.5
+971,2022-01-08,564,Customer_26052,208,Notebook,Stationery,4,80.91,323.64
+972,2014-03-22,316,Customer_2940,207,Pen,Stationery,6,78.12,468.72
+973,2020-09-26,335,Customer_26739,209,Coffee Maker,Electronics,6,76.31,457.86
+974,2013-02-17,637,Customer_28803,203,Chair,Office,9,33.34,300.06000000000006
+975,2015-08-22,325,Customer_8825,209,Coffee Maker,Electronics,1,90.28,90.28
+976,2017-06-02,720,Customer_2010,200,Laptop,Electronics,10,75.84,758.4000000000001
+977,2022-09-16,526,Customer_13916,201,Smartphone,Electronics,5,87.76,438.8
+978,2023-02-26,611,Customer_27711,207,Pen,Stationery,7,29.5,206.5
+979,2023-08-19,406,Customer_24145,200,Laptop,Electronics,5,21.0,105.0
+980,2018-03-14,372,Customer_9257,205,Printer,Electronics,9,28.85,259.65000000000003
+981,2017-08-13,157,Customer_7602,201,Smartphone,Electronics,6,86.0,516.0
+982,2013-02-28,161,Customer_10973,210,Cabinet,Office,1,39.7,39.7
+983,2018-01-01,451,Customer_22588,201,Smartphone,Electronics,6,48.64,291.84000000000003
+984,2019-12-18,550,Customer_6778,211,Plastic Cups,Sundry,3,9.59,28.77
+985,2016-08-03,806,Customer_16346,202,Desk,Office,3,43.72,131.16
+986,2010-01-26,133,Customer_17115,207,Pen,Stationery,9,36.47,328.23
+987,2014-02-04,984,Customer_17393,202,Desk,Office,7,59.9,419.3
+988,2012-05-24,668,Customer_18798,206,Paper,Stationery,10,28.7,287.0
+989,2022-06-22,864,Customer_7532,211,Plastic Cups,Sundry,10,74.51,745.1
+990,2023-05-19,546,Customer_30767,201,Smartphone,Electronics,6,60.49,362.94
+991,2012-01-09,409,Customer_26635,200,Laptop,Electronics,8,58.96,471.68
+992,2021-02-03,678,Customer_2713,210,Cabinet,Office,5,83.08,415.4
+993,2011-08-04,799,Customer_13066,211,Plastic Cups,Sundry,4,83.48,333.92
+994,2014-01-05,635,Customer_21651,200,Laptop,Electronics,9,20.34,183.06
+995,2015-01-19,631,Customer_19417,200,Laptop,Electronics,7,11.99,83.93
+996,2016-04-05,488,Customer_8254,205,Printer,Electronics,10,14.43,144.3
+997,2017-06-11,452,Customer_14531,207,Pen,Stationery,3,87.32,261.96
+998,2023-12-07,312,Customer_5158,209,Coffee Maker,Electronics,2,72.5,145.0
+999,2017-09-25,945,Customer_9022,203,Chair,Office,4,76.01,304.04
