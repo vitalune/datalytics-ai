@@ -3,8 +3,12 @@ Test script to verify visualization generation with improved prompt
 """
 import asyncio
 import os
+from dotenv import load_dotenv
 from e2b_code_interpreter import Sandbox
 from anthropic import Anthropic
+
+# Load environment variables from .env file
+load_dotenv()
 
 async def test_visualization_generation():
     """Test if improved prompt generates actual visualizations"""
