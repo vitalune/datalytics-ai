@@ -44,9 +44,20 @@ Write Python code that:
 - Loads the CSV with pandas
 - Creates all 4 charts using matplotlib/seaborn
 - Uses proper styling (figure size, labels, titles, colors)
-- Each chart should be created in a separate cell/figure
+- For EACH chart, create it with plt.figure() and then MUST call plt.show() immediately after to display it
 
-IMPORTANT: After creating each plot, the plot will be automatically captured. Just use plt.figure() for each new plot."""
+CRITICAL: You MUST call plt.show() after creating each individual plot for it to be captured. Example structure:
+```python
+# Chart 1
+plt.figure(figsize=(10, 6))
+# ... create plot ...
+plt.show()  # REQUIRED
+
+# Chart 2
+plt.figure(figsize=(10, 6))
+# ... create plot ...
+plt.show()  # REQUIRED
+```"""
 
         messages = [{"role": "user", "content": prompt}]
         
@@ -96,10 +107,13 @@ IMPORTANT: After creating each plot, the plot will be automatically captured. Ju
                 }
             else:
                 print("   ✓ Code executed successfully")
-                
+                print(f"   ℹ Number of execution results: {len(execution.results)}")
+
                 # E2B automatically captures matplotlib plots as PNG
                 chart_count = 0
-                for result in execution.results:
+                for i, result in enumerate(execution.results):
+                    print(f"   ℹ Result {i}: type={type(result)}, has png={hasattr(result, 'png')}")
+
                     if hasattr(result, 'png') and result.png:
                         charts.append({
                             "base64": result.png,
@@ -108,22 +122,35 @@ IMPORTANT: After creating each plot, the plot will be automatically captured. Ju
                         })
                         chart_count += 1
                         print(f"   ✓ Captured chart {chart_count}")
-                
+                    elif hasattr(result, 'formats'):
+                        print(f"   ℹ Available formats: {result.formats()}")
+
                 if chart_count == 0:
-                    print("   ⚠ No charts captured, checking saved files...")
+                    print("   ⚠ No charts captured from execution results")
+                    print("   ℹ Stdout output:")
+                    if execution.logs and execution.logs.stdout:
+                        for line in execution.logs.stdout[:10]:  # First 10 lines
+                            print(f"     {line}")
+
+                    print("   ℹ Checking for saved PNG files...")
                     # Check if files were saved to disk
-                    files = sandbox.files.list("/home/user")
-                    for file_info in files:
-                        if file_info.name.endswith('.png'):
-                            print(f"   ✓ Found saved chart: {file_info.name}")
-                            import base64
-                            content = sandbox.files.read(file_info.path)
-                            charts.append({
-                                "base64": base64.b64encode(content).decode(),
-                                "type": file_info.name,
-                                "format": "png"
-                            })
-                
+                    try:
+                        files = sandbox.files.list("/home/user")
+                        print(f"   ℹ Found {len(files)} files in /home/user")
+                        for file_info in files:
+                            if file_info.name.endswith('.png'):
+                                print(f"   ✓ Found saved chart: {file_info.name}")
+                                import base64
+                                content = sandbox.files.read(file_info.path)
+                                charts.append({
+                                    "base64": base64.b64encode(content).decode(),
+                                    "type": file_info.name,
+                                    "format": "png"
+                                })
+                                chart_count += 1
+                    except Exception as e:
+                        print(f"   ✗ Error checking files: {e}")
+
                 print(f"   ✓ Total charts generated: {len(charts)}")
         
         # Clean up
