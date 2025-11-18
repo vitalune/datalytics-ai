@@ -127,7 +127,7 @@ IMPORTANT: After creating each plot, the plot will be automatically captured. Ju
                 print(f"   ✓ Total charts generated: {len(charts)}")
         
         # Clean up
-        sandbox.kill()()
+        sandbox.kill()
         print("   ✓ Sandbox closed")
         print("✅ Visualization Complete\n")
         

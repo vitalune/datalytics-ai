@@ -161,7 +161,7 @@ IMPORTANT: Print the complete results as valid JSON."""
                     print("   ✓ Claude's interpretation added")
         
         # Clean up
-        sandbox.kill()()
+        sandbox.kill()
         print("   ✓ Sandbox closed")
         print("✅ Anomaly Detection Complete\n")
         

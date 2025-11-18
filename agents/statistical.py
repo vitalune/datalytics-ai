@@ -143,7 +143,7 @@ IMPORTANT: Print the results as a valid JSON object at the end."""
                     print("   ✓ Claude's interpretation added")
         
         # Clean up
-        sandbox.kill()()
+        sandbox.kill()
         print("   ✓ Sandbox closed")
         print("✅ Statistical Analysis Complete\n")
         
