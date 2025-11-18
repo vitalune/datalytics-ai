@@ -11,20 +11,22 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from agents.statistical import run_statistical_analysis
-from agents.visualization import run_visualization
+from agents.visualization import create_visualizations, create_visualization_html
 from agents.anomaly import run_anomaly_detection
 from agents.coordinator import synthesize_insights
 
 def generate_html_report(insights: str, charts: list, stats: dict, anomalies: dict) -> str:
     """Generate comprehensive HTML report"""
-    
+
     # Format charts HTML
     charts_html = ""
-    for i, chart in enumerate(charts):
+    for i, chart_path in enumerate(charts):
+        # Make path relative for HTML embedding
+        rel_path = os.path.relpath(chart_path, "results")
         charts_html += f"""
         <div class="chart-container">
             <h3>Visualization {i + 1}</h3>
-            <img src="data:image/png;base64,{chart['base64']}" alt="Chart {i + 1}">
+            <img src="{rel_path}" alt="Chart {i + 1}">
         </div>
         """
     
@@ -295,43 +297,57 @@ async def main():
     print(f"⚡ Mode: Parallel Execution\n")
     print("="*70 + "\n")
     
-    # Phase 1: Run all analysis agents in parallel
+    # Phase 1: Run analysis agents in parallel
     print("Phase 1: Running Analysis Agents in Parallel...")
     print("-" * 70 + "\n")
-    
+
     start_time = datetime.now()
-    
-    # Execute all agents concurrently
-    stats_results, viz_results, anomaly_results = await asyncio.gather(
+
+    # Execute statistical and anomaly agents concurrently (visualization is local)
+    stats_results, anomaly_results = await asyncio.gather(
         run_statistical_analysis(csv_path),
-        run_visualization(csv_path),
         run_anomaly_detection(csv_path)
     )
-    
+
     analysis_time = (datetime.now() - start_time).total_seconds()
-    
+
     print("="*70)
-    print(f"✅ ALL ANALYSIS AGENTS COMPLETE ({analysis_time:.1f}s)")
+    print(f"✅ ANALYSIS AGENTS COMPLETE ({analysis_time:.1f}s)")
     print("="*70 + "\n")
     
-    # Phase 2: Synthesize insights
-    print("Phase 2: Synthesizing Insights...")
+    # Phase 2: Create visualizations locally
+    print("Phase 2: Creating Visualizations...")
     print("-" * 70 + "\n")
-    
+
+    viz_results = create_visualizations(csv_path)
+    chart_paths = viz_results.get("charts", [])
+
+    print("="*70)
+    print("✅ VISUALIZATIONS COMPLETE")
+    print("="*70 + "\n")
+
+    # Phase 3: Synthesize insights
+    print("Phase 3: Synthesizing Insights...")
+    print("-" * 70 + "\n")
+
     insights = await synthesize_insights(stats_results, viz_results, anomaly_results)
-    
+
     print("="*70)
     print("✅ INSIGHTS SYNTHESIS COMPLETE")
     print("="*70 + "\n")
-    
-    # Phase 3: Generate HTML report
-    print("Phase 3: Generating Final Report...")
+
+    # Phase 4: Generate HTML report
+    print("Phase 4: Generating Final Report...")
     print("-" * 70 + "\n")
-    
+
     os.makedirs("results", exist_ok=True)
-    
-    charts = viz_results.get("charts", [])
-    html_report = generate_html_report(insights, charts, stats_results, anomaly_results)
+
+    # Create standalone visualization dashboard
+    if chart_paths:
+        viz_dashboard_path = create_visualization_html(chart_paths)
+        print(f"   ✓ Standalone visualization dashboard: {viz_dashboard_path}\n")
+
+    html_report = generate_html_report(insights, chart_paths, stats_results, anomaly_results)
     
     report_path = "results/analysis_report.html"
     with open(report_path, "w", encoding="utf-8") as f:
@@ -344,7 +360,10 @@ async def main():
     results_json = {
         "timestamp": datetime.now().isoformat(),
         "statistics": stats_results,
-        "visualizations": {"count": len(charts)},
+        "visualizations": {
+            "count": len(chart_paths),
+            "chart_paths": chart_paths
+        },
         "anomalies": anomaly_results,
         "insights": insights
     }
@@ -361,9 +380,14 @@ async def main():
     print("🎉 ANALYSIS COMPLETE!")
     print("="*70)
     print(f"\n⏱️  Total time: {total_time:.1f}s")
-    print(f"📊 Charts generated: {len(charts)}")
+    print(f"📊 Charts generated: {len(chart_paths)}")
     print(f"📁 Results saved in: results/")
-    print(f"\n👉 Open {report_path} in your browser to view the full report\n")
+    print(f"\n📋 Reports generated:")
+    print(f"   1. Full analysis report: {report_path}")
+    if chart_paths:
+        print(f"   2. Visualization dashboard: {viz_dashboard_path}")
+        print(f"   3. Individual charts: {len(chart_paths)} PNG files")
+    print(f"\n👉 Open the reports in your browser to view the results\n")
 
 if __name__ == "__main__":
     asyncio.run(main())
