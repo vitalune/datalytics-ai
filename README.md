@@ -30,12 +30,16 @@ Upload any CSV file and get instant insights from 3 specialized AI agents runnin
 
 ## Technical Architecture
 
-### Core Stack
-- **Python 3.12+** - Main orchestrator
-- **Claude AI (Anthropic)** - Intelligent analysis & synthesis via API
-- **E2B Sandboxes** - Isolated Python execution environments
-- **Pandas/Matplotlib** - Data processing & visualization
-- **Vanilla JavaScript/CSS3** - Interactive front-end (no external dependencies)
+| Component | Technology | Purpose |
+|-----------|-----------|---------|
+| AI Engine | Claude 4.5 Sonnet & Claude 4.5 Haiku| Intelligent analysis & synthesis |
+| Execution | E2B Sandboxes | Secure, isolated code execution |
+| Backend | Python 3.12+ | Orchestration & data processing |
+| Data Libs | Pandas, NumPy, SciPy | Statistical computation |
+| Viz Libs | Matplotlib | Chart generation |
+| Frontend | HTML5/CSS3/JavaScript | Interactive reports |
+
+---
 
 ### How It Works
 
@@ -131,45 +135,13 @@ That's it! The system will:
 
 ---
 
-## Technologies Used
-
-| Component | Technology | Purpose |
-|-----------|-----------|---------|
-| AI Engine | Claude 4.5 Sonnet & Claude 4.5 Haiku| Intelligent analysis & synthesis |
-| Execution | E2B Sandboxes | Secure, isolated code execution |
-| Backend | Python 3.12+ | Orchestration & data processing |
-| Data Libs | Pandas, NumPy, SciPy | Statistical computation |
-| Viz Libs | Matplotlib | Chart generation |
-| Frontend | HTML5/CSS3/JavaScript | Interactive reports |
-
----
-
-## Report Features
-
-### Interactive Elements
-- **Draggable Charts** - Click and drag charts around the canvas
-- **Fullscreen Mode** - Expand any chart to fullscreen (⛶)
-- **Collapsible Sections** - Expand/collapse insights on demand
-- **Dark Mode Toggle** - 🌙 button in top-right corner
-- **Smooth Animations** - Glassmorphic fade-ins and transitions
-
-### Content Sections
-1. **Header** - Title, generation timestamp, agent/visualization count
-2. **KPI Dashboard** - 4 key metrics cards
-3. **Executive Insights** - AI-synthesized summary, findings, recommendations
-4. **Data Visualizations** - 4 interactive charts
-5. **Detailed Analysis** - Statistical breakdown
-6. **Data Quality Assessment** - Quality score and anomaly details
-
----
-
 ## Use Cases
 
-- 📊 **Business Intelligence** - Analyze sales, customer, or operational data
-- 🔬 **Research** - Process experimental or observational datasets
-- 📈 **Startups** - Quick data insights without hiring data scientists
-- 🎓 **Education** - Learn how multi-agent AI systems work
-- 💼 **Consultants** - Deliver stunning reports to clients instantly
+- **Business Intelligence** - Analyze sales, customer, or operational data
+- **Research** - Process experimental or observational datasets
+- **Startups** - Quick data insights without hiring data scientists
+- **Education** - Learn how multi-agent AI systems work
+- **Consultants** - Deliver stunning reports to clients instantly
 
 ---
 
@@ -199,6 +171,6 @@ MIT
 
 ## Questions?
 
-This project demonstrates the power of multi-agent AI systems combined with secure code execution. Perfect for building intelligent automation, data analysis tools, or AI-powered applications.
+Contact: amirvalizadeh161@gmail.com
 
 Happy analyzing! 🚀
