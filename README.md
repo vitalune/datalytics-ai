@@ -30,7 +30,7 @@ Upload any CSV file and get instant insights from 3 specialized AI agents runnin
 ## Technical Architecture
 
 ### Core Stack
-- **Python 3.8+** - Main orchestrator
+- **Python 3.12+** - Main orchestrator
 - **Claude AI (Anthropic)** - Intelligent analysis & synthesis via API
 - **E2B Sandboxes** - Isolated Python execution environments
 - **Pandas/Matplotlib** - Data processing & visualization
@@ -134,9 +134,9 @@ That's it! The system will:
 
 | Component | Technology | Purpose |
 |-----------|-----------|---------|
-| AI Engine | Claude 3.5 Sonnet | Intelligent analysis & synthesis |
+| AI Engine | Claude 4.5 Sonnet & Claude 4.5 Haiku| Intelligent analysis & synthesis |
 | Execution | E2B Sandboxes | Secure, isolated code execution |
-| Backend | Python 3.8+ | Orchestration & data processing |
+| Backend | Python 3.12+ | Orchestration & data processing |
 | Data Libs | Pandas, NumPy, SciPy | Statistical computation |
 | Viz Libs | Matplotlib | Chart generation |
 | Frontend | HTML5/CSS3/JavaScript | Interactive reports |
@@ -178,22 +178,6 @@ That's it! The system will:
 - **Report Generation** - Sub-second HTML/CSS generation
 - **Scalability** - Handles datasets with 1000-100K+ rows
 - **Sandbox Isolation** - Each agent runs in secure, isolated environment
-
----
-
-## Limitations & Future Work
-
-### Current Limitations
-- Chart generation limited to 4 standard visualizations
-- Insights limited to 500 characters per section in some views
-- Date parsing requires standard formats
-
-### Roadmap
-- [ ] Custom chart types based on data structure
-- [ ] Export to PDF, PowerPoint, Excel
-- [ ] Real-time collaboration features
-- [ ] Custom prompt engineering per dataset type
-- [ ] Integration with databases (PostgreSQL, BigQuery, etc.)
 
 ---
 
