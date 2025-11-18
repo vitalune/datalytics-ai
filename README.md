@@ -7,6 +7,7 @@ A powerful, intelligent data analysis platform that leverages Claude AI and para
 Upload any CSV file and get instant insights from 3 specialized AI agents running in isolated sandboxes, complete with beautiful interactive visualizations and executive summaries.
 
 [View the Demo](https://vitalune.github.io/datalytics-ai/results/analysis_report.html)
+
 [GitHub Repo](https://github.com/vitalune/datalytics-ai)
 ---
 
