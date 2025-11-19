@@ -513,7 +513,7 @@
         <!-- Video Section -->
         <section class="video-section">
             <div class="video-container">
-                <video controls autoplay muted>
+                <video id="demoVideo" controls autoplay muted>
                     <source src="datalyticdemo.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -673,6 +673,33 @@
                 data analysis tools, and AI-powered applications 🚀</p>
         </footer>
     </div>
+
+    <script>
+        // Keep the demo video muted indefinitely
+        const video = document.getElementById('demoVideo');
+
+        // Set volume to 0 and muted to true
+        video.volume = 0;
+        video.muted = true;
+
+        // Prevent users from changing the muted state
+        video.addEventListener('volumechange', (e) => {
+            if (!video.muted) {
+                video.muted = true;
+            }
+        });
+
+        // Also handle any attempts to change volume
+        video.addEventListener('play', (e) => {
+            video.muted = true;
+            video.volume = 0;
+        });
+
+        // Prevent context menu mute option
+        video.addEventListener('contextmenu', (e) => {
+            e.preventDefault();
+        });
+    </script>
 </body>
 
 </html>
